@@ -57,7 +57,9 @@ body {
         .answers {
           background-color: red;
           display: flex;
+          flex-direction: column;
           justify-content: space-around;
+          padding-top: 30px;
           gap: 5px;
           
           button {
