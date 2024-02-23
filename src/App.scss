@@ -63,10 +63,26 @@ body {
           gap: 5px;
           
           button {
-            font-size: 20px;
+            font-size: 16px;
           }
         }
       }
+    }
+
+    .ravenclaw {
+      background-color: blue;
+    }
+
+    .griffyndor {
+      background-color: red;
+    }
+
+    .slytherin {
+      background-color: green;
+    }
+
+    .hufflepuff {
+      background-color: yellow;
     }
   }
 }

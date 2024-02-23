@@ -1,5 +1,6 @@
 import React from "react";
 import { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 import questionData from "../questions.json";
 import Terrain from "../imgs/terrain.png";
 
@@ -7,6 +8,7 @@ const Quiz = () => {
   const questions = questionData.questions;
   const [questionIterator, setQuestionIterator] = useState(0);
   const [answerArray, addToAnswerArray] = useState([]);
+  const navigate = useNavigate();
 
   function logAnswer(answer) {
     addToAnswerArray((prevAnswerArray) => {
@@ -15,7 +17,8 @@ const Quiz = () => {
   }
 
   function questionShift(answer) {
-    if (questionIterator + 1 >= questions.length) {
+    // if (questionIterator + 1 >= questions.length) {
+        if (questionIterator >=3) {
         const finalAnswerArray = [...answerArray, ...answer];
 
         const houseChoiceData = {
@@ -26,8 +29,9 @@ const Quiz = () => {
         } 
 
         let houseSelection = Object.keys(houseChoiceData).reduce((a, b) => houseChoiceData[a] > houseChoiceData[b] ? a : b);
+        localStorage.setItem("hogwartsHouseName", houseSelection)
         console.log("Quiz Over", houseSelection);
-        return;
+        navigate("/house")
       } else {
         logAnswer(answer);
         setQuestionIterator((prevQuestion) => prevQuestion + 1);
