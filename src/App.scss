@@ -1,0 +1,70 @@
+html,
+body {
+  // Global Styling
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: green;
+  overflow: hidden;
+
+  h1 {
+    margin: 0px auto;
+    word-wrap: break-word;
+    white-space: normal;
+    width: fit-content;
+    
+  }
+
+
+  // Page Styling
+
+  .page {
+    height: 100vh;
+    background-color: purple;
+    margin: auto;
+    box-sizing: border-box;
+
+    .page-content {
+      max-width: 90vw;
+      margin: auto;
+      box-sizing: border-box;
+      background-color: yellow;
+      padding: 50px 20px;
+
+      #sorting-hat-img {
+        max-width: 100%;
+        height: auto;
+        margin: auto;
+      }
+
+      .quiz-content {
+        background-color: pink;
+        width: 100%;
+
+        img {
+          width: 100%;
+          height: auto;
+          padding-top: 10vh;
+        }
+
+        h1 {
+          font-size: 30px;
+        }
+
+        .answers {
+          background-color: red;
+          display: flex;
+          justify-content: space-around;
+          gap: 5px;
+          
+          button {
+            font-size: 20px;
+          }
+        }
+      }
+    }
+  }
+}

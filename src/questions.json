@@ -1,0 +1,62 @@
+{
+    "questions": [
+        {
+            "question": "River or Forrest?",
+            "answers": [
+                {
+                    "content": "River",
+                    "value": ["ravenclaw", "slytherin"]
+                },
+                {
+                    "content": "Forrest",
+                    "value": ["griffyndor", "hufflepuff"]
+                }
+            ]
+
+        },
+        {
+            "question": "How would you like to be known to history?",
+            "answers": [
+                {
+                    "content": "The Wise",
+                    "value": ["ravenclaw"]
+                },
+                {
+                    "content": "The Brave",
+                    "value": ["griffyndor"]
+                },
+                {
+                    "content": "The Bold",
+                    "value": ["hufflepuff"]
+                },
+                {
+                    "content": "The Great",
+                    "value": ["slytherin"]
+                }
+            ]
+
+        },
+        {
+            "question": "What kind of instrument most pleases your ear?",
+            "answers": [
+                {
+                    "content": "Violin",
+                    "value": ["ravenclaw"]
+                },
+                {
+                    "content": "Drums",
+                    "value": ["griffyndor"]
+                },
+                {
+                    "content": "Piano",
+                    "value": ["hufflepuff"]
+                },
+                {
+                    "content": "Trumpet",
+                    "value": ["slytherin"]
+                }
+            ]
+
+        }
+    ]
+}
