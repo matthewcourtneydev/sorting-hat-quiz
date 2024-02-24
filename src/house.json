@@ -1,0 +1,178 @@
+[
+    {
+        "gryffindor": {
+            "welcomeMessages": [
+                {
+                    "text": "Congratulations! I’m Prefect Percy Weasley, and I’m delighted to welcome you to GRYFFINDOR HOUSE. Our emblem is the lion, the bravest of all creatures; our house colours are scarlet and gold, and our common room lies up in Gryffindor Tower."
+                },
+                {
+                    "text": "This is, quite simply, the best house at Hogwarts. It’s where the bravest and boldest end up – for instance: Albus Dumbledore! Yes, Dumbledore himself, the greatest wizard of our time, was a Gryffindor! If that’s not enough for you, I don’t know what is."
+                },
+                {
+                    "text": "I won’t keep you long, as all you need to do to find out more about your house is to follow Harry Potter and his friends as I lead them up to their dormitories. Enjoy your time at Hogwarts – but how could you fail to? You’ve become part of the best house in the school."
+                }
+            ],
+            "housename": "Gryffindor",
+            "colors": {
+                "dark": "#740001",
+                "light": "#ae0001",
+                "secondaryDark": "#d3a625",
+                "secondaryLight": "#eeba30"
+            },
+            "badgeImg": "./imgs/gryffindor-badge-removebg-preview.png"
+        },
+        "hufflepuff": {
+            "welcomeMessages": [
+                {
+                    "text": "Congratulations! I’m Prefect Gabriel Truman, and I’m delighted to welcome you to HUFFLEPUFF HOUSE. Our emblem is the badger, an animal that is often underestimated, because it lives quietly until attacked, but which, when provoked, can fight off animals much larger than itself, including wolves. Our house colours are yellow and black, and our common room lies one floor below the ground, on the same corridor as the kitchens."
+                },
+                {
+                    "text": "ow, there are a few things you should know about Hufflepuff house. First of all, let’s deal with a perennial myth about the place, which is that we’re the least clever house. WRONG. Hufflepuff is certainly the least boastful house, but we’ve produced just as many brilliant witches and wizards as any other. Want proof? Look up Grogan Stump, one of the most popular Ministers for Magic of all time. He was a Hufflepuff – as were the successful Ministers Artemesia Lufkin and Dugald McPhail. Then there’s the world authority on magical creatures, Newt Scamander; Bridget Wenlock, the famous thirteenth-century Arithmancer who first discovered the magical properties of the number seven, and Hengist of Woodcroft, who founded the all-wizarding village of Hogsmeade, which lies very near Hogwarts School. Hufflepuffs all."
+                },
+                {
+                    "text": "So, as you can see, we’ve produced more than our fair share of powerful, brilliant and daring witches and wizards, but, just because we don’t shout about it, we don’t get the credit we deserve. Ravenclaws, in particular, assume that any outstanding achiever must have come from their house. I got into big trouble during my third year for duelling a Ravenclaw prefect who insisted that Bridget Wenlock had come from his house, not mine. I should have got a week of detentions, but Professor Sprout let me off with a warning and a box of coconut ice."
+                },
+                {
+                    "text": "Hufflepuffs are trustworthy and loyal. We don’t shoot our mouths off, but cross us at your peril; like our emblem, the badger, we will protect ourselves, our friends and our families against all-comers. Nobody intimidates us."
+                },
+                {
+                    "text": "However, it’s true that Hufflepuff is a bit lacking in one area. We’ve produced the fewest Dark wizards of any house in this school. Of course, you’d expect Slytherin to churn out evil-doers, seeing as they’ve never heard of fair play and prefer cheating over hard work any day, but even Gryffindor (the house we get on best with) has produced a few dodgy characters."
+                },
+                {
+                    "text": "What else do you need to know? Oh yes, the entrance to the common room is concealed in a stack of large barrels in a nook on the right hand side of the kitchen corridor. Tap the barrel two from the bottom, middle of the second row, in the rhythm of ‘Helga Hufflepuff’, and the lid will swing open. We are the only house at Hogwarts that also has a repelling device for would-be intruders. If the wrong lid is tapped, or if the rhythm of the tapping is wrong, the illegal entrant is doused in vinegar."
+                },
+                {
+                    "text": "You will hear other houses boast of their security arrangements, but it so happens that in more than a thousand years, the Hufflepuff common room and dormitories have never been seen by outsiders. Like badgers, we know exactly how to lie low – and how to defend ourselves."
+                },
+                {
+                    "text": "Once you’ve opened the barrel, crawl inside and along the passageway behind it, and you will emerge into the cosiest common room of them all. It is round and earthy and low-ceilinged; it always feels sunny, and its circular windows have a view of rippling grass and dandelions."
+                },
+                {
+                    "text": "There is a lot of burnished copper about the place, and many plants, which either hang from the ceiling or sit on the windowsills. Our Head of house, Professor Pomona Sprout, is Head of Herbology, and she brings the most interesting specimens (some of which dance and talk) to decorate our room – one reason why Hufflepuffs are often very good at Herbology. Our overstuffed sofas and chairs are upholstered in yellow and black, and our dormitories are reached through round doors in the walls of the common room. Copper lamps cast a warm light over our four-posters, all of which are covered in patchwork quilts, and copper bed warmers hang on the walls, should you have cold feet."
+                },
+                {
+                    "text": "Our house ghost is the friendliest of them all: the Fat Friar. You’ll recognise him easily enough; he’s plump and wears monk’s robes, and he’s very helpful if you get lost or are in any kind of trouble."
+                },
+                {
+                    "text": "I think that’s nearly everything. I must say, I hope some of you are good Quidditch players. Hufflepuff hasn’t done as well as I’d like in the Quidditch tournament lately."
+                },
+                {
+                    "text": "You should sleep comfortably. We’re protected from storms and wind down in our dormitories; we never have the disturbed nights those in the towers sometimes experience."
+                },
+                {
+                    "text": "And once again: congratulations on becoming a member of the friendliest, most decent and most tenacious house of them all."
+                }
+            ],
+            "housename": "Hufflepuff",
+            "colors": {
+                "dark": "#ecb939",
+                "light": "#f0c75e",
+                "secondaryDark": "#372e29",
+                "secondaryLight": "#726255"
+            },
+            "badgeImg": "./imgs/hufflepuff-badge-removebg-preview.png"
+        },
+        "ravenclaw": {
+            "welcomeMessages": [
+                {
+                    "text": "Congratulations! I’m Prefect Robert Hilliard, and I’m delighted to welcome you to RAVENCLAW HOUSE. Our emblem is the eagle, which soars where others cannot climb; our house colours are blue and bronze, and our common room is found at the top of Ravenclaw Tower, behind a door with an enchanted knocker. The arched windows set into the walls of our circular common room look down at the school grounds: the lake, the Forbidden Forest, the Quidditch pitch and the Herbology gardens. No other house in the school has such stunning views."
+                },
+                {
+                    "text": "Without wishing to boast, this is the house where the cleverest witches and wizards live. Our founder, Rowena Ravenclaw, prized learning above all else – and so do we. Unlike the other houses, who all have concealed entrances to their common rooms, we don’t need one. The door to our common room lies at the top of a tall, winding staircase. It has no handle, but an enchanted bronze knocker in the shape of an eagle. When you rap on the door, this knocker will ask you a question, and if you can answer it correctly, you are allowed in. This simple barrier has kept out everyone but Ravenclaws for nearly a thousand years."
+                },
+                {
+                    "text": "Some first-years are scared by having to answer the eagle’s questions, but don’t worry. Ravenclaws learn quickly, and you’ll soon enjoy the challenges the door sets. It’s not unusual to find twenty people standing outside the common room door, all trying to work out the answer to the day’s question together. This is a great way to meet fellow Ravenclaws from other years, and to learn from them – although it is a bit annoying if you’ve forgotten your Quidditch robes and need to get in and out in a hurry. In fact, I’d advise you to triple-check your bag for everything you need before leaving Ravenclaw Tower."
+                },
+                {
+                    "text": "Another cool thing about Ravenclaw is that our people are the most individual – some might even call them eccentrics. But geniuses are often out of step with ordinary folk, and unlike some other houses we could mention, we think you’ve got the right to wear what you like, believe what you want, and say what you feel. We aren’t put off by people who march to a different tune; on the contrary, we value them!"
+                },
+                {
+                    "text": "Speaking of eccentrics, you’ll like our Head of house, Professor Filius Flitwick. People often underestimate him, because he’s really tiny (we think he’s part elf, but we’ve never been rude enough to ask) and he’s got a squeaky voice, but he’s the best and most knowledgeable Charms master alive in the world today. His office door is always open to any Ravenclaw with a problem, and if you’re in a real state he’ll get out these delicious little cupcakes he keeps in a tin in his desk drawer and make them do a little dance for you. In fact, it’s worth pretending you’re in a real state just to see them jive."
+                },
+                {
+                    "text": "Ravenclaw house has an illustrious history. Most of the greatest wizarding inventors and innovators were in our house, including Perpetua Fancourt, the inventor of the lunascope, Laverne de Montmorency, a great pioneer of love potions, and Ignatia Wildsmith, the inventor of Floo powder. Famous Ravenclaw Ministers for Magic include Millicent Bagnold, who was in power on the night that Harry Potter survived the Dark Lord’s curse, and defended the wizarding celebrations all over Britain with the words, ‘I assert our inalienable right to party'. There was also Minister Lorcan McLaird, who was a quite brilliant wizard, but preferred to communicate by puffing smoke out of the end of his wand. Well, I did say we produce eccentrics. In fact, we are also the house that gave the wizarding world Uric the Oddball, who used a jellyfish for a hat. He’s the punch line of a lot of wizarding jokes."
+                },
+                {
+                    "text": "As for our relationship with the other three houses: well, you’ve probably heard about the Slytherins. They’re not all bad, but you’d do well to be on your guard until you know them well. They’ve got a long house tradition of doing whatever it takes to win – so watch out, especially in Quidditch matches and exams."
+                },
+                {
+                    "text": "The Gryffindors are OK. If I had a criticism, I’d say Gryffindors tend to be show-offs. They’re also much less tolerant than we are of people who are different; in fact, they’ve been known to make jokes about Ravenclaws who have developed an interest in levitation, or the possible magical uses of troll bogies, or ovomancy, which (as you probably know) is a method of divination using eggs. Gryffindors haven’t got our intellectual curiosity, whereas we’ve got no problem if you want to spend your days and nights cracking eggs in a corner of the common room and writing down your predictions according to the way the yolks fall. In fact, you’ll probably find a few people to help you."
+                },
+                {
+                    "text": "As for the Hufflepuffs, well, nobody could say they’re not nice people. In fact, they’re some of the nicest people in the school. Let’s just say you needn’t worry too much about them when it comes to competition at exam time."
+                },
+                {
+                    "text": "I think that’s nearly everything. Oh yes, our house ghost is the Grey Lady. The rest of the school thinks she never speaks, but she’ll talk to Ravenclaws. She’s particularly useful if you’re lost, or you’ve mislaid something."
+                },
+                {
+                    "text": "I’m sure you’ll have a good night. Our dormitories are in turrets off the main tower; our four-poster beds are covered in sky blue silk eiderdowns and the sound of the wind whistling around the windows is very relaxing."
+                },
+                {
+                    "text": "And once again: well done on becoming a member of the cleverest, quirkiest and most interesting house at Hogwarts."
+                }
+            ],
+            "housename": "Ravenclaw",
+            "colors": {
+                "dark": "#0e1a40",
+                "light": "#222f5b",
+                "secondaryDark": "#946b2d",
+                "secondaryLight": "#bebebe"
+            },
+            "badgeImg": "./imgs/ravenclaw-badge-removebg-preview.png"
+        },
+        "slytherin": {
+            "welcomeMessages": [
+                {
+                    "text": "Congratulations! I’m Prefect Gemma Farley, and I’m delighted to welcome you to SLYTHERIN HOUSE. Our emblem is the serpent, the wisest of creatures; our house colours are emerald green and silver, and our common room lies behind a concealed entrance down in the dungeons. As you’ll see, its windows look out into the depths of the Hogwarts lake. We often see the giant squid swooshing by – and sometimes more interesting creatures. We like to feel that our hangout has the aura of a mysterious, underwater shipwreck."
+                },
+                {
+                    "text": "Now, there are a few things you should know about Slytherin – and a few you should forget."
+                },
+                {
+                    "text": "Firstly, let’s dispel a few myths. You might have heard rumours about Slytherin house – that we’re all into the Dark Arts, and will only talk to you if your great-grandfather was a famous wizard, and rubbish like that. Well, you don’t want to believe everything you hear from competing houses. I’m not denying that we’ve produced our share of Dark wizards, but so have the other three houses – they just don’t like admitting it. And yes, we have traditionally tended to take students who come from long lines of witches and wizards, but nowadays you’ll find plenty of people in Slytherin house who have at least one Muggle parent."
+                },
+                {
+                    "text": "Here’s a little-known fact that the other three houses don’t bring up much: Merlin was a Slytherin. Yes, Merlin himself, the most famous wizard in history! He learned all he knew in this very house! Do you want to follow in the footsteps of Merlin? Or would you rather sit at the old desk of that illustrious ex-Hufflepuff, Eglantine Puffett, inventor of the Self-Soaping Dishcloth?"
+                },
+                {
+                    "text": "I didn’t think so."
+                },
+                {
+                    "text": "But that’s enough about what we’re not. Let’s talk about what we are, which is the coolest and edgiest house in this school. We play to win, because we care about the honour and traditions of Slytherin."
+                },
+                {
+                    "text": "We also get respect from our fellow students. Yes, some of that respect might be tinged with fear, because of our Dark reputation, but you know what? It can be fun, having a reputation for walking on the wild side. Chuck out a few hints that you’ve got access to a whole library of curses, and see whether anyone feels like nicking your pencil case."
+                },
+                {
+                    "text": "But we’re not bad people. We’re like our emblem, the snake: sleek, powerful, and frequently misunderstood."
+                },
+                {
+                    "text": "For instance, we Slytherins look after our own – which is more than you can say for Ravenclaw. Apart from being the biggest bunch of swots you ever met, Ravenclaws are famous for clambering over each other to get good marks, whereas we Slytherins are brothers. The corridors of Hogwarts can throw up surprises for the unwary, and you’ll be glad you’ve got the Serpents on your side as you move around the school. As far as we’re concerned, once you’ve become a snake, you’re one of ours – one of the elite."
+                },
+                {
+                    "text": "Because you know what Salazar Slytherin looked for in his chosen students? The seeds of greatness. You’ve been chosen by this house because you’ve got the potential to be great, in the true sense of the word. All right, you might see a couple of people hanging around the common room whom you might not think are destined for anything special. Well, keep that to yourself. If the Sorting Hat put them in here, there’s something great about them, and don’t you forget it."
+                },
+                {
+                    "text": "And talking of people who aren’t destined for greatness, I haven’t mentioned the Gryffindors. Now, a lot of people say that Slytherins and Gryffindors represent two sides of the same coin. Personally, I think Gryffindors are nothing more than wannabe Slytherins. Mind you, some people say that Salazar Slytherin and Godric Gryffindor prized the same kinds of students, so perhaps we are more similar than we like to think. But that doesn’t mean that we cosy up with Gryffindors. They like beating us only slightly less than we like beating them."
+                },
+                {
+                    "text": "A few more things you might need to know: our house ghost is the Bloody Baron. If you get on the right side of him he’ll sometimes agree to frighten people for you. Just don’t ask him how he got bloodstained; he doesn’t like it."
+                },
+                {
+                    "text": "The password to the common room changes every fortnight. Keep an eye on the noticeboard. Never bring anyone from another house into our common room or tell them our password. No outsider has entered it for more than seven centuries."
+                },
+                {
+                    "text": "Well, I think that’s all for now. I’m sure you’ll like our dormitories. We sleep in ancient four-posters with green silk hangings, and bedspreads embroidered with silver thread. Medieval tapestries depicting the adventures of famous Slytherins cover the walls, and silver lanterns hang from the ceilings. You’ll sleep well; it’s very soothing, listening to the lake water lapping against the windows at night."
+                }
+            ],
+            "housename": "Slytherin",
+            "colors": {
+                "dark": "#1a472a",
+                "light": "#2a623d",
+                "secondaryDark": "#5d5d5d",
+                "secondaryLight": "#aaaaaa"
+            },
+            "badgeImg": "./imgs/slytherin-badge-removebg-preview.png"
+        }
+    }
+]

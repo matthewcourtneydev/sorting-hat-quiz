@@ -21,7 +21,7 @@ const Home = () => {
           rightful place in one of Hogwarts' esteemed houses. Remember, the
           Sorting Hat's decision is absolute.
         </p>
-        <button onClick={startQuiz}>Start the Sorting</button>
+        <button className="start-quiz" onClick={startQuiz}>Start the Sorting</button>
       </div>
     </div>
   );

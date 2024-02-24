@@ -2,10 +2,9 @@ import React from "react";
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import questionData from "../questions.json";
-import Terrain from "../imgs/terrain.png";
 
 const Quiz = () => {
-  const questions = questionData.questions;
+  const questions = questionData;
   const [questionIterator, setQuestionIterator] = useState(0);
   const [answerArray, addToAnswerArray] = useState([]);
   const navigate = useNavigate();
@@ -22,7 +21,7 @@ const Quiz = () => {
         const finalAnswerArray = [...answerArray, ...answer];
 
         const houseChoiceData = {
-            griffyndor: finalAnswerArray.filter((house) => house === 'griffyndor').length,
+            gryffindor: finalAnswerArray.filter((house) => house === 'gryffindor').length,
             slytherin: finalAnswerArray.filter((house) => house === 'slytherin').length,
             ravenclaw: finalAnswerArray.filter((house) => house === 'ravenclaw').length,
             hufflepuff: finalAnswerArray.filter((house) => house === 'hufflepuff').length,
@@ -45,7 +44,12 @@ const Quiz = () => {
       <div className="page-content">
         <div className="quiz-content">
           <div className="image">
-            <img src={Terrain} className="question-image" alt="example" />
+            {/* {
+                currentQuestion.image.map((img) => {
+                    return require(img)
+                })
+            } */}
+            <img src={currentQuestion.image} className="question-image" alt="example" />
           </div>
           <h1 className="question">{currentQuestion.question}</h1>
           <div className="answers">

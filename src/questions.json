@@ -1,7 +1,7 @@
-{
-    "questions": [
+[
         {
             "question": "Which of thee following would you most hate people to call you?",
+            "image": ["./imgs/terrain.png"],
             "answers": [
                 {
                     "content": "Ordinary",
@@ -13,7 +13,7 @@
                 },
                 {
                     "content": "Cowardly",
-                    "value": ["griffyndor"]
+                    "value": ["gryffindor"]
                 },
                 {
                     "content": "Selfish",
@@ -24,6 +24,7 @@
         },
         {
             "question": "After you have died, what would you most like people to do when they hear your name?",
+            "image": ["./imgs/thumb.webp"],
             "answers": [
                 {
                     "content": "Miss you, but smile",
@@ -31,7 +32,7 @@
                 },
                 {
                     "content": "Ask for more stories about your adventures",
-                    "value": ["griffyndor"]
+                    "value": ["gryffindor"]
                 },
                 {
                     "content": "Think with admiration of your achievements",
@@ -49,7 +50,7 @@
             "answers": [
                 {
                     "content": "Glory",
-                    "value": ["griffyndor"]
+                    "value": ["gryffindor"]
                 },
                 {
                     "content": "Wisdom",
@@ -79,7 +80,7 @@
                 },
                 {
                     "content": "The Bold",
-                    "value": ["griffyndor"]
+                    "value": ["gryffindor"]
                 },
                 {
                     "content": "The Great",
@@ -105,7 +106,7 @@
                 },
                 {
                     "content": "The statue of an old wizard with a strangely twinkling eye",
-                    "value": ["griffyndor"]
+                    "value": ["gryffindor"]
                 }
             ]
 
@@ -119,7 +120,7 @@
                 },
                 {
                     "content": "Drums",
-                    "value": ["griffyndor"]
+                    "value": ["gryffindor"]
                 },
                 {
                     "content": "Piano",
@@ -149,7 +150,7 @@
                 },
                 {
                     "content": "The small pewter box, unasuming and plain, with a scratched message upon it that reads 'I only open for the worthy'",
-                    "value": ["griffyndor"]
+                    "value": ["gryffindor"]
                 }
             ]
 
@@ -167,7 +168,7 @@
                 },
                 {
                     "content": "The golden liquid so bright that it hurts the eye, and which makes sunspots dance all around the room",
-                    "value": ["griffyndor"]
+                    "value": ["gryffindor"]
                 },
                 {
                     "content": "The mysterious black liquid that gleams like ink, and gives off fumes that make you see strange visions",
@@ -181,7 +182,7 @@
             "answers": [
                 {
                     "content": "A crackling log fire",
-                    "value": ["griffyndor"]
+                    "value": ["gryffindor"]
                 },
                 {
                     "content": "Fresh parchment",
@@ -203,7 +204,7 @@
             "answers": [
                 {
                     "content": "Trusted",
-                    "value": ["griffyndor", "hufflepuff"]
+                    "value": ["gryffindor", "hufflepuff"]
                 },
                 {
                     "content": "Liked",
@@ -215,7 +216,7 @@
                 },
                 {
                     "content": "Praised",
-                    "value": ["griffyndor"]
+                    "value": ["gryffindor"]
                 },
                 {
                     "content": "Envied",
@@ -241,11 +242,11 @@
                 },
                 {
                     "content": "Loneliness",
-                    "value": ["hufflepuff", "griffyndor"]
+                    "value": ["hufflepuff", "gryffindor"]
                 },
                 {
                     "content": "Boredom",
-                    "value": ["slytherin", "griffyndor"]
+                    "value": ["slytherin", "gryffindor"]
                 },
                 {
                     "content": "Being Ignored",
@@ -263,7 +264,7 @@
                 },
                 {
                     "content": "Apparition and Disapparition (being able to materialise and dematerialise at will)",
-                    "value": ["griffyndor", "slytherin"]
+                    "value": ["gryffindor", "slytherin"]
                 },
                 {
                     "content": "Transfiguration (turning one object into another)",
@@ -271,7 +272,7 @@
                 },
                 {
                     "content": "Flying on broomstick",
-                    "value": ["griffyndor", "hufflepuff"]
+                    "value": ["gryffindor", "hufflepuff"]
                 },
                 {
                     "content": "Hexes and jinxes",
@@ -283,7 +284,7 @@
                 },
                 {
                     "content": "Secrets about the castle",
-                    "value": ["griffyndor"]
+                    "value": ["gryffindor"]
                 }
             ]
 
@@ -297,7 +298,7 @@
                 },
                 {
                     "content": "The power of invisibility",
-                    "value": ["griffyndor"]
+                    "value": ["gryffindor"]
                 },
                 {
                     "content": "The power of superhuman strength",
@@ -309,7 +310,7 @@
                 },
                 {
                     "content": "The power to change the past",
-                    "value": ["griffyndor", "slytherin"]
+                    "value": ["gryffindor", "slytherin"]
                 },
                 {
                     "content": "The power to change your appearance at will",
@@ -323,7 +324,7 @@
             "answers": [
                 {
                     "content": "Centaurs",
-                    "value": ["griffyndor", "ravenclaw"]
+                    "value": ["gryffindor", "ravenclaw"]
                 },
                 {
                     "content": "Goblins",
@@ -339,11 +340,11 @@
                 },
                 {
                     "content": "Ghosts",
-                    "value": ["griffyndor", "ravenclaw"]
+                    "value": ["gryffindor", "ravenclaw"]
                 },
                 {
                     "content": "Werewolves",
-                    "value": ["griffyndor", "hufflepuff"]
+                    "value": ["gryffindor", "hufflepuff"]
                 },
                 {
                     "content": "Trolls",
@@ -361,7 +362,7 @@
                 },
                 {
                     "content": "Tell Professor Flitwick that he ought to ask your classmate (and resolve to tell your classmate that if he doesn't tell the truth, you will)",
-                    "value": ["griffyndor"]
+                    "value": ["gryffindor"]
                 },
                 {
                     "content": "Tell Professor Flitwick the truth. If your classmate is prepared to win by cheating, he deserves to be found out. Also, as you are both in the same house, any points he loses will be regained by you, for coming first in his place",
@@ -391,7 +392,7 @@
                 },
                 {
                     "content": "Volunteer to fight?",
-                    "value": ["griffyndor"]
+                    "value": ["gryffindor"]
                 }
             ]
 
@@ -409,7 +410,7 @@
                 },
                 {
                     "content": "The twisting, leaf-strewn path through the woods",
-                    "value": ["griffyndor"]
+                    "value": ["gryffindor"]
                 },
                 {
                     "content": "The cobbled street lined with ancient buildings",
@@ -427,7 +428,7 @@
                 },
                 {
                     "content": "An eye at the keyhole of the dark, windowless room in which you are locked",
-                    "value": ["griffyndor"]
+                    "value": ["gryffindor"]
                 },
                 {
                     "content": "Waking up to find that neither your friends nor your family have any idea who you are",
@@ -449,7 +450,7 @@
                 },
                 {
                     "content": "Draw your wand and try to discover the source of the noise?",
-                    "value": ["griffyndor"]
+                    "value": ["gryffindor"]
                 },
                 {
                     "content": "Draw your wand and stand your ground?",
@@ -475,7 +476,7 @@
                 },
                 {
                     "content": "Agree, and walk away, leaving them to wonder whether you are bluffing?",
-                    "value": ["griffyndor"]
+                    "value": ["gryffindor"]
                 },
                 {
                     "content": "Tell them that you are worried about their mental health, and offer to call a doctor.",
@@ -493,7 +494,7 @@
                 },
                 {
                     "content": "Agree, and ask whether they'd like a free sample of a jinx",
-                    "value": ["griffyndor"]
+                    "value": ["gryffindor"]
                 },
                 {
                     "content": "Agree, and walk away, leaving them to wonder whether you are bluffing",
@@ -511,7 +512,7 @@
             "answers": [
                 {
                     "content": "Dawn",
-                    "value": ["ravenclaw", "griffyndor"]
+                    "value": ["ravenclaw", "gryffindor"]
                 },
                 {
                     "content": "Dusk",
@@ -529,7 +530,7 @@
                 },
                 {
                     "content": "Stars",
-                    "value": ["griffyndor", "hufflepuff"]
+                    "value": ["gryffindor", "hufflepuff"]
                 }
             ]
 
@@ -539,7 +540,7 @@
             "answers": [
                 {
                     "content": "Black",
-                    "value": ["griffyndor", "slytherin"]
+                    "value": ["gryffindor", "slytherin"]
                 },
                 {
                     "content": "White",
@@ -557,7 +558,7 @@
                 },
                 {
                     "content": "Tails",
-                    "value": ["griffyndor", "slytherin"]
+                    "value": ["gryffindor", "slytherin"]
                 }
             ]
 
@@ -571,7 +572,7 @@
                 },
                 {
                     "content": "Right",
-                    "value": ["griffyndor", "hufflepuff"]
+                    "value": ["gryffindor", "hufflepuff"]
                 }
             ]
 
@@ -585,7 +586,7 @@
                 },
                 {
                     "content": "Drums",
-                    "value": ["griffyndor"]
+                    "value": ["gryffindor"]
                 },
                 {
                     "content": "Piano",
@@ -607,10 +608,9 @@
                 },
                 {
                     "content": "Forest",
-                    "value": ["griffyndor", "ravenclaw"]
+                    "value": ["gryffindor", "ravenclaw"]
                 }
             ]
 
         }
     ]
-}

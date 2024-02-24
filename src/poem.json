@@ -1,0 +1,36 @@
+[{
+    "poem": [
+        {
+        "lineOne": "You might belong in",
+        "housename": "Gryffindor",
+        "lineTwo": "Where dwell the brave at heart",
+        "lineThree": "Their daring, nerve, and chivalry",
+        "lineFour": "Set Gryffindors apart.",
+        "color": "#ae0001"
+    },
+    {
+        "lineOne": "You might belong in",
+        "housename": "Hufflepuff",
+        "lineTwo": "Where they are just and loyal",
+        "lineThree": "Those patient Hufflepuffs are true",
+        "lineFour": "And unafraid of toil.",
+        "color": "#f0c75e" 
+    },
+    {
+        "lineOne": "Or yet in the wise old",
+        "housename": "Ravenclaw",
+        "lineTwo": "If you've a ready mind",
+        "lineThree": "Where those of wit and learning",
+        "lineFour": "Will always find their kind.",
+        "color": "#222f5b"
+    },
+    {
+        "lineOne": "Or perhaps in",
+        "housename": "Slytherin",
+        "lineTwo": "You'll make your real friends",
+        "lineThree": "Those cunning folks use any means",
+        "lineFour": "To achieve their ends.",
+        "color": "#2a623d"
+    }
+]
+}]

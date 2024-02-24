@@ -7,7 +7,6 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: green;
   overflow: hidden;
 
   h1 {
@@ -23,16 +22,27 @@ body {
 
   .page {
     height: 100vh;
-    background-color: purple;
+    background-color: rgb(62, 55, 69);
     margin: auto;
     box-sizing: border-box;
+    position: relative;
 
     .page-content {
       max-width: 90vw;
       margin: auto;
       box-sizing: border-box;
-      background-color: yellow;
       padding: 50px 20px;
+
+      p {
+        margin-bottom: 10px;
+        color: white;
+        line-height: 1.3em;
+        font-size: 18px;
+      }
+      h1 {
+        color: white;
+        margin-top: 0;
+      }
 
       #sorting-hat-img {
         max-width: 100%;
@@ -40,8 +50,14 @@ body {
         margin: auto;
       }
 
+      .start-quiz {
+        font-size: 20px;
+        margin: 20px auto;
+        padding: 10px 15px;
+        min-width: 250px;
+      }
+
       .quiz-content {
-        background-color: pink;
         width: 100%;
 
         img {
@@ -55,7 +71,6 @@ body {
         }
 
         .answers {
-          background-color: red;
           display: flex;
           flex-direction: column;
           justify-content: space-around;
@@ -69,20 +84,74 @@ body {
       }
     }
 
-    .ravenclaw {
-      background-color: blue;
+    .ravenclaw, .gryffindor, .hufflepuff, .slytherin {
+      box-sizing: border-box;
+      min-height: 100vh;
+      min-width: 100vw;
+      margin: 0;
+      padding: 50px 20px;
+
+      h1 {
+        font-size: 55px;
+      }
+
+      img {
+        max-width: 80%;
+        height: auto;
+      }
     }
 
-    .griffyndor {
-      background-color: red;
+    .ravenclaw {
+      background-repeat: no-repeat;
+    }
+
+    .gryffindor {
+      background-repeat: no-repeat;
     }
 
     .slytherin {
-      background-color: green;
+      background-repeat: no-repeat;
     }
 
     .hufflepuff {
-      background-color: yellow;
+      background-repeat: no-repeat;
+    }
+
+    .poem {
+      background-color: black;
+      box-sizing: border-box;
+      min-height: 100vh;
+      min-width: 100vw;
+      margin: 0;
+      padding: 50px 20px;
+      padding-top: 150px;
+  
+      .poem-first {
+        font-size: 25px;
+        padding: 0;
+        margin: 0;
+      }
+
+      h1 {
+        font-size: 70px;
+        margin-bottom: 30px;
+        margin-top: 30px;
+      }
+  
+      .poem-words {
+        font-size: 25px;
+        padding: 0;
+        margin-top: 20px;
+      }
+
+      .poem-words-hidden {
+        font-size: 25px;
+        padding: 0;
+        margin-top: 20px;
+        opacity: 0;
+      }
     }
   }
+
+
 }
