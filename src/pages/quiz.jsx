@@ -30,7 +30,7 @@ const Quiz = () => {
         let houseSelection = Object.keys(houseChoiceData).reduce((a, b) => houseChoiceData[a] > houseChoiceData[b] ? a : b);
         localStorage.setItem("hogwartsHouseName", houseSelection)
         console.log("Quiz Over", houseSelection);
-        navigate("/house")
+        navigate("/poem")
       } else {
         logAnswer(answer);
         setQuestionIterator((prevQuestion) => prevQuestion + 1);

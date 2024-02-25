@@ -5,6 +5,7 @@ import Home from "./pages/home";
 import Quiz from "./pages/quiz";
 import House from "./pages/house";
 import Poem from "./pages/poem";
+import Test from "./pages/test"
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path={"/quiz"} element={<Quiz />} />
         <Route path={"/house"} element={<House />}/>
         <Route path={"/poem"} element={<Poem />}/>
+        <Route path={"/test"} element={<Test />}/>
       </Routes>
     </div>
   );

@@ -5,18 +5,22 @@
             "answers": [
                 {
                     "content": "Ordinary",
+                    "img": "././imgs/icon1.png",
                     "value": ["slytherin"]
                 },
                 {
                     "content": "Ignorant",
+                    "img": "././imgs/icon2.png",
                     "value": ["ravenclaw"]
                 },
                 {
                     "content": "Cowardly",
+                    "img": "././imgs/icon3.png",
                     "value": ["gryffindor"]
                 },
                 {
                     "content": "Selfish",
+                    "img": "././imgs/icon5.png",
                     "value": ["hufflepuff"]
                 }
             ]

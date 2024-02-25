@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Lumos';
+    src: url('Lumos.eot');
+    src: url('Lumos.eot?#iefix') format('embedded-opentype'),
+        url('Lumos.woff2') format('woff2'),
+        url('Lumos.woff') format('woff'),
+        url('Lumos.ttf') format('truetype'),
+        url('Lumos.svg#Lumos') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

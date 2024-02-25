@@ -13,6 +13,7 @@
                 }
             ],
             "housename": "Gryffindor",
+            "slogan": "Where dwell the brave at heart!",
             "colors": {
                 "dark": "#740001",
                 "light": "#ae0001",
@@ -64,6 +65,7 @@
                 }
             ],
             "housename": "Hufflepuff",
+            "slogan": "Where the are just and loyal!",
             "colors": {
                 "dark": "#ecb939",
                 "light": "#f0c75e",
@@ -112,6 +114,7 @@
                 }
             ],
             "housename": "Ravenclaw",
+            "slogan": "Wit beyond measure is man's greatest treasure!",
             "colors": {
                 "dark": "#0e1a40",
                 "light": "#222f5b",
@@ -166,6 +169,7 @@
                 }
             ],
             "housename": "Slytherin",
+            "slogan": "Those cunning folk use any means, to achieve their ends.",
             "colors": {
                 "dark": "#1a472a",
                 "light": "#2a623d",
