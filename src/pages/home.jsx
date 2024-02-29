@@ -1,6 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import SortingHatImg from "../imgs/sorting-hat.png";
+import WWlogo from "../imgs/ww-logo.png"
 
 const Home = () => {
   const navigate = useNavigate();
@@ -13,8 +14,9 @@ const Home = () => {
   return (
     <div className="page">
       <div className="page-content">
-        <p className="homePre">SORTING CEREMONY</p>
-        <h1 className="homeHeader">Discover Your Hogwarts House</h1>
+        <img src={WWlogo} className="logo" alt="logo" />
+        <p className="homePre"><span>S</span>ORTING <span>C</span>EREMONY</p>
+        <h1 className="homeHeader">Discover your Hogwarts House</h1>
         <img src={SortingHatImg} alt="sorting hat" id="sorting-hat-img" />
         <p className="welcomeMessage">
         Don the Sorting Hat to be placed into your rightful Hogwarts house. The Sorting Hat's decision is final.

@@ -3,9 +3,9 @@ import { useState, useEffect } from 'react';
 import LeftArrow from "../imgs/left-arrow.png"
 import RightArrow from "../imgs/right-arrow.png"
 
-const QuizQuestion = ({ questionData }) => {
+const QuizQuestion = ({ questionData, questionShift, currentQueston }) => {
     const question = questionData;
-    const [currentAnswerIndex, setCurrentAnswerIndex] = useState(0);
+    const [currentAnswerIndex, setCurrentAnswerIndex] = useState(currentQueston);
 
     useEffect(() => {
         console.log("Answer index: ", currentAnswerIndex)
@@ -23,10 +23,17 @@ const QuizQuestion = ({ questionData }) => {
         })
     }
 
-    function logAnswer() {
-        console.log(question.answers[currentAnswerIndex].value);
+    function resetAnswerIterator() {
+        setCurrentAnswerIndex((prevAnswerIndex) => {
+            return prevAnswerIndex - prevAnswerIndex;
+        })
     }
+
     
+    function endGame(answer) {
+        resetAnswerIterator();
+         questionShift(answer);
+    }
     return (
         <div className="question-container">
             <p className="question-text">{question.question}</p>
@@ -47,7 +54,7 @@ const QuizQuestion = ({ questionData }) => {
             </div>
             </div>
             <div className="answer-text">{question.answers[currentAnswerIndex].content}</div>
-            <button className="select" value={question.answers[currentAnswerIndex].value} onClick={logAnswer}>Select</button>
+            <button className="select" onClick={() => endGame(question.answers[currentAnswerIndex].value)}>Select</button>
         </div>
     );
 }
