@@ -2,31 +2,215 @@
     {
         "question": "Which of the following do you find most difficult to deal with?",
         "type": "slide",
-        "mainImg": "./imgs/deal-conatiner.png",
+        "mainImg": "./imgs/deal-container.png",
+        "answersBgColor": "rgb(194, 146, 109)",
         "answers": [
             {
                 "content": "Hunger",
+                "img": "./imgs/deal1.png",
                 "value": ["ravenclaw", "hufflepuff"]
             },
             {
                 "content": "Cold",
-                "img": "./imgs/hufflepuff-badge-removebg-preview.png",
+                "img": "./imgs/deal2.png",
                 "value": ["hufflepuff", "slytherin"]
             },
             {
                 "content": "Loneliness",
-                "img": "./imgs/hufflepuff-badge-removebg-preview.png",
+                "img": "./imgs/deal3.png",
                 "value": ["hufflepuff", "gryffindor"]
             },
             {
                 "content": "Boredom",
+                "img": "./imgs/deal4.png",
                 "value": ["slytherin", "gryffindor"]
             },
             {
                 "content": "Being Ignored",
+                "img": "./imgs/deal5.png",
                 "value": ["slytherin", "ravenclaw"]
             }
         ]
 
-    }  
+    },
+    {
+        "question": "One of your house mates has cheated in a Hogwarts exam by using a Self-Spelling Quill. Now he has come top of the class in Charms, beating you into second place. Professor Flitwick is suspicious of what happened. He draws you to one side after his lesson and asks you whether or not your classmate used a forbidden quill. What do you do?",
+        "type": "slide",
+        "mainImg": "./imgs/quil-container.png",
+        "answersBgColor": "rgb(135, 201, 240)",
+        "answers": [
+            {
+                "content": "Lie and say you don't know (but hope that somebody else tells Professor Flitwick the truth)",
+                "img": "./imgs/quil1.png",
+                "value": ["hufflepuff"]
+            },
+            {
+                "content": "Tell Professor Flitwick that he ought to ask your classmate (and resolve to tell your classmate that if he doesn't tell the truth, you will)",
+                "img": "./imgs/quil2.png",
+                "value": ["gryffindor"]
+            },
+            {
+                "content": "Tell Professor Flitwick the truth. If your classmate is prepared to win by cheating, he deserves to be found out. Also, as you are both in the same house, any points he loses will be regained by you, for coming first in his place",
+                "img": "./imgs/quil3.png",
+                "value": ["ravenclaw"]
+            },
+            {
+                "content": "You would not wait to be asked to tell Professor Flitwick the truth. If you knew that somebody was using a forbidden quill, you would tell the teacher before the exam started",
+                "img": "./imgs/quil4.png",
+                "value": ["slytherin"]
+            }
+        ]
+    },
+    {
+        "question": "Given the choice, would you rather invent a potion that would guarantee you:",
+        "type": "slide",
+        "mainImg": "./imgs/potion-container.png",
+        "answersBgColor": "rgb(123, 17, 114)",
+        "answers": [
+            {
+                "content": "Glory",
+                "img": "./imgs/potion1.png",
+                "value": ["gryffindor"]
+            },
+            {
+                "content": "Wisdom",
+                "img": "./imgs/potion2.png",
+                "value": ["ravenclaw"]
+            },
+            {
+                "content": "Love",
+                "img": "./imgs/potion3.png",
+                "value": ["hufflepuff"]
+            },
+            {
+                "content": "Power",
+                "img": "./imgs/potion4.png",
+                "value": ["slytherin"]
+            }
+        ]
+    },
+    {
+        "question": "Once every century, the Flutterby bush produces flowers that adapts their scent to attract the unwary. If it lured you, it would smell of:",
+        "type": "slide",
+        "mainImg": "./imgs/flutter-container.png",
+        "answersBgColor": "rgb(135, 201, 240)",
+        "answers": [
+            {
+                "content": "A crackling log fire",
+                "img": "./imgs/flutter1.png",
+                "value": ["gryffindor"]
+            },
+            {
+                "content": "Fresh parchment",
+                "img": "./imgs/flutter2.png",
+                "value": ["ravenclaw"]
+            },
+            {
+                "content": "Home",
+                "img": "./imgs/flutter3.png",
+                "value": ["hufflepuff"]
+            },
+            {
+                "content": "The sea",
+                "img": "./imgs/flutter4.png",
+                "value": ["slytherin"]
+            }
+        ]
+    },
+    {
+        "question": "If you could have any power, which would you choose?",
+        "type": "slide",
+        "mainImg": "./imgs/power-container.png",
+        "answersBgColor": "rgb(135, 201, 240)",
+        "answers": [
+            {
+                "content": "The power to read minds",
+                "img": "./imgs/power1.png",
+                "value": ["ravenclaw", "slytherin"]
+            },
+            {
+                "content": "The power of invisibility",
+                "img": "./imgs/power2.png",
+                "value": ["gryffindor"]
+            },
+            {
+                "content": "The power of superhuman strength",
+                "img": "./imgs/power3.png",
+                "value": ["hufflepuff"]
+            },
+            {
+                "content": "The power to speak to animals",
+                "img": "./imgs/power4.png",
+                "value": ["hufflepuff"]
+            },
+            {
+                "content": "The power to change the past",
+                "img": "./imgs/power5.png",
+                "value": ["gryffindor", "slytherin"]
+            },
+            {
+                "content": "The power to change your appearance at will",
+                "img": "./imgs/power6.png",
+                "value": ["ravenclaw"]
+            }
+        ]
+    },
+    {
+        "question": "Which of thee following would you most hate people to call you?",
+        "type": "slide",
+        "mainImg": "./imgs/hate-container.png",
+        "answersBgColor": "rgb(178, 246, 225)",
+        "answers": [
+            {
+                "content": "Ordinary",
+                "img": "./imgs/hate1.png",
+                "value": ["slytherin"]
+            },
+            {
+                "content": "Ignorant",
+                "img": "./imgs/hate2.png",
+                "value": ["ravenclaw"]
+            },
+            {
+                "content": "Cowardly",
+                "img": "./imgs/hate3.png",
+                "value": ["gryffindor"]
+            },
+            {
+                "content": "Selfish",
+                "img": "./imgs/hate4.png",
+                "value": ["hufflepuff"]
+            }
+        ]
+
+    },
+    {
+        "question": "What kind of instrument most pleases your ear?",
+        "type": "slide",
+        "mainImg": "./imgs/music-container.png",
+        "answersBgColor": "rgb(178, 246, 225)",
+        "answers": [
+            {
+                "content": "Violin",
+                "img": "./imgs/music1.png",
+                "value": ["slytherin"]
+            },
+            {
+                "content": "Drums",
+                "img": "./imgs/music2.png",
+                "value": ["gryffindor"]
+            },
+            {
+                "content": "Piano",
+                "img": "./imgs/music3.png",
+                "value": ["ravenclaw"]
+            },
+            {
+                "content": "Trumpet",
+                "img": "./imgs/music4.png",
+                "value": ["hufflepuff"]
+            }
+        ]
+
+    }
 ]

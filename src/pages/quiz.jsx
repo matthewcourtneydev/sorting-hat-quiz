@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import questionData from "../questions.json";
 import QuizQuestion from "../components/quiz-question";
+import SlideQuestion from "../components/slide-question";
 import Logo from "../imgs/ww-logo.png"
 
 const Quiz = () => {
@@ -20,7 +21,7 @@ const Quiz = () => {
 
   function questionShift(answer) {
     // if (questionIterator + 1 >= questions.length) {
-    if (questionIterator >= 4) {
+    if (questionIterator >= 10) {
       const finalAnswerArray = [...answerArray, ...answer];
 
       const houseChoiceData = {
@@ -48,11 +49,19 @@ const Quiz = () => {
 
   let currentQuestion = questions[questionIterator];
 
+  let questionType;
+
+  if (currentQuestion.type === "slide") {
+    questionType = <SlideQuestion questionData={currentQuestion} questionShift={questionShift} currentQueston={questionIterator}/>
+  } else if (currentQuestion.type === "normal") {
+    questionType = <QuizQuestion questionData={currentQuestion} questionShift={questionShift} currentQueston={questionIterator}/>
+  }
+
   return (
     <div className="page">
       <div className="page-content quiz-content-fix">
         <img src={Logo} alt="logo" className="quiz-logo"/>
-        <QuizQuestion questionData={currentQuestion} questionShift={questionShift} currentQueston={questionIterator}/>
+        {questionType}
       </div>
     </div>
   );
