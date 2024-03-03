@@ -13,6 +13,9 @@ const Poem = () => {
     color: currentPoemLine.color,
   };
 
+  function skip() {
+    navigate("/house")
+  }
   function incPoemSection() {
     adjPoemSection((prevSection) => {
       return prevSection + 1;
@@ -54,6 +57,8 @@ const Poem = () => {
         <p key={poemSection} className="fourth-animation">
           {currentPoemLine.lineFour}
         </p>
+
+        <button className="skip" onClick={() => skip()}>SKIP</button>
       </div>
     </div>
   );
