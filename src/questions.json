@@ -1,9 +1,249 @@
 [
     {
+        "question": "Which nightmare would frighten you the most?",
+        "type": "normal",
+        "answers": [
+            {
+                "content": "Standing on top of something very high and realizing suddenly that there are no hand- or footholds, nor any barrier to stop you falling",
+                "img": "./imgs/nightmare1.png",
+                "value": ["ravenclaw"]
+            },
+            {
+                "content": "An eye at the keyhole of the dark, windowless room in which you are locked",
+                "img": "./imgs/nightmare2.png",
+                "value": ["gryffindor"]
+            },
+            {
+                "content": "Waking up to find that neither your friends nor your family have any idea who you are",
+                "img": "./imgs/nightmare3.png",
+                "value": ["hufflepuff"]
+            },
+            {
+                "content": "Being forced to speak in such a silly voice that hardly anyone can understand you, and everyone laughs at you",
+                "img": "./imgs/nightmare4.png",
+                "value": ["slytherin"]
+            }
+        ]
+    },
+    {
+        "question": "Late at night, walking alone down the street, you hear a peculiar cry that you believe to have a magical source. Do you:",
+        "type": "normal",
+        "answers": [
+            {
+                "content": "Proceed with caution, keeping one hand on your concealed wand and an eye out for any disturbance?",
+                "img": "./imgs/wand1.png",
+                "value": ["hufflepuff"]
+            },
+            {
+                "content": "Draw your wand and try to discover the source of the noise?",
+                "img": "./imgs/wand2.png",
+                "value": ["gryffindor"]
+            },
+            {
+                "content": "Draw your wand and stand your ground?",
+                "img": "./imgs/wand3.png",
+                "value": ["slytherin"]
+            },
+            {
+                "content": "Withdraw into the shadows to await developments, while mentally reviewing the most appropriate defensive and offensive spells, should trouble occur?",
+                "img": "./imgs/wand4.png",
+                "value": ["ravenclaw"]
+            }
+        ]
+
+    },
+    {
+        "question": "Which road tempts you the most?",
+        "type": "normal",
+        "answers": [
+            {
+                "content": "The wide, sunny, grassy lane",
+                "img": "../imgs/road1.png",
+                "value": ["hufflepuff"]
+            },
+            {
+                "content": "The narrow, dark, latern lit alley",
+                "img": "../imgs/road2.png",
+                "value": ["slytherin"]
+            },
+            {
+                "content": "The twisting, leaf-strewn path through the woods",
+                "img": "../imgs/road3.png",
+                "value": ["gryffindor"]
+            },
+            {
+                "content": "The cobbled street lined with ancient buildings",
+                "img": "../imgs/road4.png",
+                "value": ["ravenclaw"]
+            }
+        ]
+
+    },
+    {
+        "question": "You and two friends need to cross a bridge guarded by a river troll who insists on fighting one of you before he will let all of you pass. Do you:",
+        "type": "slide",
+        "mainImg": "./imgs/bridge-container.png",
+        "bgImg": "./imgs/bridge-bg.png",
+        "answers": [
+            {
+                "content": "Attempt to confuse the troll into letting all three of you pass without fighting?",
+                "img": "./imgs/bridge1.png",
+                "value": ["ravenclaw"]
+            },
+            {
+                "content": "Suggest drawing lots to decide which of you will fight?",
+                "img": "./imgs/bridge2.png",
+                "value": ["hufflepuff"]
+            },
+            {
+                "content": "Suggest that all three of you should fight (without telling the troll)?",
+                "img": "./imgs/bridge3.png",
+                "value": ["slytherin"]
+            },
+            {
+                "content": "Volunteer to fight?",
+                "img": "./imgs/bridge4.png",
+                "value": ["gryffindor"]
+            }
+        ]
+
+    },
+    {
+        "question": "What are you most looking forward to learning at Hogwarts?",
+        "type": "slide",
+        "mainImg": "./imgs/learning-container.png",
+        "bgImg": "./imgs/learning-bg.png",
+        "answers": [
+            {
+                "content": "Every area of magic that I can",
+                "img": "./imgs/learning1.png",
+                "value": ["ravenclaw"]
+            },
+            {
+                "content": "Apparition and Disapparition (being able to materialise and dematerialise at will)",
+                "img": "./imgs/learning2.png",
+                "value": ["gryffindor", "slytherin"]
+            },
+            {
+                "content": "Transfiguration (turning one object into another)",
+                "img": "./imgs/learning3.png",
+                "value": ["ravenclaw"]
+            },
+            {
+                "content": "Flying on broomstick",
+                "img": "./imgs/learning4.png",
+                "value": ["gryffindor", "hufflepuff"]
+            },
+            {
+                "content": "Hexes and jinxes",
+                "img": "./imgs/learning5.png",
+                "value": ["slytherin"]
+            },
+            {
+                "content": "All about magical creatures, and how to befriend/care for them",
+                "img": "./imgs/learning6.png",
+                "value": ["hufflepuff"]
+            },
+            {
+                "content": "Secrets about the castle",
+                "img": "./imgs/learning7.png",
+                "value": ["gryffindor"]
+            }
+        ]
+
+    },
+    {
+        "question": "After you have died, what would you most like people to do when they hear your name?",
+        "type": "slide",
+        "mainImg": "./imgs/died-container.png",
+        "bgImg": "./imgs/died-bg.png",
+        "answers": [
+            {
+                "content": "Miss you, but smile",
+                "img": "./imgs/died1.png",
+                "value": ["hufflepuff"]
+            },
+            {
+                "content": "Ask for more stories about your adventures",
+                "img": "./imgs/died2.png",
+                "value": ["gryffindor"]
+            },
+            {
+                "content": "Think with admiration of your achievements",
+                "img": "./imgs/died3.png",
+                "value": ["ravenclaw"]
+            },
+            {
+                "content": "I dont care what people think of me after I'm dead; it's what they think of me when I'm alive the matters",
+                "img": "./imgs/died4.png",
+                "value": ["slytherin"]
+            }
+        ]
+
+    },
+    {
+        "question": "A Muggle confronts you and says that they are sure you are a witch or wizard. Do you:",
+        "type": "slide",
+        "mainImg": "./imgs/muggle-container.png",
+        "bgImg": "./imgs/muggle-bg.png",
+        "answers": [
+            {
+                "content": "Ask what makes them think so",
+                "img": "./imgs/muggle1.png",
+                "value": ["ravenclaw"]
+            },
+            {
+                "content": "Agree, and ask whether they'd like a free sample of a jinx",
+                "img": "./imgs/muggle2.png",
+                "value": ["gryffindor"]
+            },
+            {
+                "content": "Agree, and walk away, leaving them to wonder whether you are bluffing",
+                "img": "./imgs/muggle3.png",
+                "value": ["hufflepuff"]
+            },
+            {
+                "content": "Tell them that you are worried about their mental health, and offer to call a doctor",
+                "img": "./imgs/muggle4.png",
+                "value": ["slytherin"]
+            }
+        ]
+
+    },
+    {
+        "question": "Four boxes are placed before you. Which would you try and open?",
+        "type": "slide",
+        "mainImg": "./imgs/boxes-container.png",
+        "bgImg": "./imgs/boxes-bg.png",
+        "answers": [
+            {
+                "content": "The small tortoiseshell box, embelished with gold, iside which some small creature seems to be squeaking",
+                "img": "./imgs/boxes1.png",
+                "value": ["hufflepuff"]
+            },
+            {
+                "content": "The gleaming jet black box with a silver lock and key, marked with a mysterious rune that you know to be the mark of Merlin",
+                "img": "./imgs/boxes2.png",
+                "value": ["slytherin"]
+            },
+            {
+                "content": "The ornate golden casket, standing on clawed feet, whose inscription warns that both secret knowledge and unbearable temptation lie within",
+                "img": "./imgs/boxes3.png",
+                "value": ["ravenclaw"]
+            },
+            {
+                "content": "The small pewter box, unasuming and plain, with a scratched message upon it that reads 'I only open for the worthy'",
+                "img": "./imgs/boxes4.png",
+                "value": ["gryffindor"]
+            }
+        ]
+
+    },
+    {
         "question": "Which of the following do you find most difficult to deal with?",
         "type": "slide",
         "mainImg": "./imgs/deal-container.png",
-        "answersBgColor": "rgb(194, 146, 109)",
+        "bgImg": "./imgs/deal-bg.png",
         "answers": [
             {
                 "content": "Hunger",
@@ -34,38 +274,10 @@
 
     },
     {
-        "question": "One of your house mates has cheated in a Hogwarts exam by using a Self-Spelling Quill. Now he has come top of the class in Charms, beating you into second place. Professor Flitwick is suspicious of what happened. He draws you to one side after his lesson and asks you whether or not your classmate used a forbidden quill. What do you do?",
-        "type": "slide",
-        "mainImg": "./imgs/quil-container.png",
-        "answersBgColor": "rgb(135, 201, 240)",
-        "answers": [
-            {
-                "content": "Lie and say you don't know (but hope that somebody else tells Professor Flitwick the truth)",
-                "img": "./imgs/quil1.png",
-                "value": ["hufflepuff"]
-            },
-            {
-                "content": "Tell Professor Flitwick that he ought to ask your classmate (and resolve to tell your classmate that if he doesn't tell the truth, you will)",
-                "img": "./imgs/quil2.png",
-                "value": ["gryffindor"]
-            },
-            {
-                "content": "Tell Professor Flitwick the truth. If your classmate is prepared to win by cheating, he deserves to be found out. Also, as you are both in the same house, any points he loses will be regained by you, for coming first in his place",
-                "img": "./imgs/quil3.png",
-                "value": ["ravenclaw"]
-            },
-            {
-                "content": "You would not wait to be asked to tell Professor Flitwick the truth. If you knew that somebody was using a forbidden quill, you would tell the teacher before the exam started",
-                "img": "./imgs/quil4.png",
-                "value": ["slytherin"]
-            }
-        ]
-    },
-    {
         "question": "Given the choice, would you rather invent a potion that would guarantee you:",
         "type": "slide",
         "mainImg": "./imgs/potion-container.png",
-        "answersBgColor": "rgb(123, 17, 114)",
+        "bgImg": "./imgs/potion-bg.png",
         "answers": [
             {
                 "content": "Glory",
@@ -159,7 +371,7 @@
         "question": "Which of thee following would you most hate people to call you?",
         "type": "slide",
         "mainImg": "./imgs/hate-container.png",
-        "answersBgColor": "rgb(178, 246, 225)",
+        "bgImg": "./imgs/hate-bg.png",
         "answers": [
             {
                 "content": "Ordinary",
@@ -188,7 +400,7 @@
         "question": "What kind of instrument most pleases your ear?",
         "type": "slide",
         "mainImg": "./imgs/music-container.png",
-        "answersBgColor": "rgb(178, 246, 225)",
+        "bgImg": "./imgs/music-bg.png",
         "answers": [
             {
                 "content": "Violin",
@@ -209,6 +421,34 @@
                 "content": "Trumpet",
                 "img": "./imgs/music4.png",
                 "value": ["hufflepuff"]
+            }
+        ]
+
+    },        {
+        "question": "How would you like to be known to history?",
+        "type": "slide",
+        "mainImg": "./imgs/history-container.png",
+        "bgImg": "./imgs/history-bg.png",
+        "answers": [
+            {
+                "content": "The Wise",
+                "img": "./imgs/history1.png",
+                "value": ["ravenclaw"]
+            },
+            {
+                "content": "The Good",
+                "img": "./imgs/history2.png",
+                "value": ["hufflepuff"]
+            },
+            {
+                "content": "The Bold",
+                "img": "./imgs/history3.png",
+                "value": ["gryffindor"]
+            },
+            {
+                "content": "The Great",
+                "img": "./imgs/history4.png",
+                "value": ["slytherin"]
             }
         ]
 

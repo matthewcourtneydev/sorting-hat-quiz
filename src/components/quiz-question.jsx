@@ -9,6 +9,7 @@ const QuizQuestion = ({ questionData, questionShift, currentQueston }) => {
 
     useEffect(() => {
         console.log("Answer index: ", currentAnswerIndex)
+        console.log(question.answers[currentAnswerIndex])
     }, [currentAnswerIndex])
 
     function incAnsInt() {

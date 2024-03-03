@@ -13,7 +13,6 @@ const Quiz = () => {
   const navigate = useNavigate();
 
   function logAnswer(answer) {
-    console.log(answer)
     addToAnswerArray((prevAnswerArray) => {
       return [...prevAnswerArray, ...answer];
     });

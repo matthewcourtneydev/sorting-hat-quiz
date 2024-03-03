@@ -10,6 +10,7 @@ body {
   box-sizing: border-box;
   overflow: hidden;
   overflow-y: scroll;
+  z-index: -2;
 
   h1 {
     margin: 0px auto;
@@ -172,14 +173,14 @@ body {
                 bottom: 0;
                 left: 0;
                 right: 0;
-              }
+              };
 
               .front-img {
-                z-index: 1;
+                z-index: 2;
               }
 
               .back-img {
-                z-index: 0;
+                z-index: 1;
               }
             }
 
@@ -197,6 +198,23 @@ body {
                 max-height: 20px;
                 filter: invert(1);
               }
+            }
+
+            .background-image-question {
+              color: red;
+              background-size: contain;
+              position: absolute;
+              top: 0;
+              bottom: 0;
+              left: 0;
+              right: 0;
+              z-index: 0;
+              background-repeat: no-repeat;
+              background-size: auto;
+              min-height: 100%;
+              width: 100%;
+              filter: invert(0);
+              margin: auto;
             }
           }
         }
@@ -349,4 +367,36 @@ body {
       }
     }
   }
+}
+
+
+
+@media only screen and (min-width: 900px) {
+
+  .page-content {
+    max-width: 500px !important;
+
+
+  .slideshow {
+    margin: auto;
+    min-width: 300px;
+  }
+
+  .slider-nav {
+    min-height: 15px;
+    min-width: 50px !important;
+    max-width: 50px !important;
+
+    .dot {
+      height: 6px;
+      width: 6px;
+      border-radius: 100%;
+      background-color: rgb(89, 89, 89);
+    }
+
+    .active {
+      background-color: rgb(205, 205, 205);
+    }
+  }
+}
 }

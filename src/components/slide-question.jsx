@@ -36,10 +36,17 @@ const SlideQuestion = ({ questionData, questionShift, currentQueston }) => {
          questionShift(answer);
     }
 
-    const BackgroundStyles = {
-        backgroundColor: question.answersBgColor
+    let BackgroundStyles;
+    if (question.answersBgColor) {
+        BackgroundStyles = {
+            backgroundColor: question.answersBgColor
+        }
+    } else if (question.bgImg) {
+        BackgroundStyles = {
+            backgroundImage: `url(${question.bgImg})`,
+            backgroundSize: "contain"
+        }
     }
-
 
     return (
         <div className="question-container">
@@ -49,7 +56,8 @@ const SlideQuestion = ({ questionData, questionShift, currentQueston }) => {
                 {currentAnswerIndex > 0 ? <div className="left" onClick={decAnsInt}><img src={LeftArrow} alt="" /></div> : <><span className="spacer"></span></>}
                 <div className="image-container">
                 <img src={containImg} alt="" className="front-img"/>
-                <img src={question.answers[currentAnswerIndex].img} className="back-img" alt="" style={BackgroundStyles}/>
+                <img src={question.answers[currentAnswerIndex].img} className="back-img" alt=""/>
+                {question.bgImg ? <img className="background-image-question" src={question.bgImg} alt=""></img> : <></>}
                 </div>
                 {currentAnswerIndex < question.answers.length - 1 ? <div className="right" onClick={incAnsInt}><img src={RightArrow} alt="" /></div> : <><span className="spacer"></span></>}
             </div>
