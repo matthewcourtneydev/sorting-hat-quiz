@@ -41,7 +41,7 @@ const QuizQuestion = ({ questionData, questionShift, currentQueston }) => {
             <div className="slideshow-container">
             <div className="slideshow">
                 {currentAnswerIndex > 0 ? <div className="left" onClick={decAnsInt}><img src={LeftArrow} alt="" /></div> : <><span className="spacer"></span></>}
-                <img src={question.answers[currentAnswerIndex].img} alt="" />
+                <img className="backgound-image" src={"https://my.wizardingworld.com/static/media/3@2x.5dad5c2c.png"} />
                 {currentAnswerIndex < question.answers.length - 1 ? <div className="right" onClick={incAnsInt}><img src={RightArrow} alt="" /></div> : <><span className="spacer"></span></>}
             </div>
             <div className="slider-nav">

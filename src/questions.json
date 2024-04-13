@@ -5,22 +5,22 @@
         "answers": [
             {
                 "content": "Standing on top of something very high and realizing suddenly that there are no hand- or footholds, nor any barrier to stop you falling",
-                "img": "./imgs/nightmare1.png",
+                "img": "../imgs/nightmare1.png",
                 "value": ["ravenclaw"]
             },
             {
                 "content": "An eye at the keyhole of the dark, windowless room in which you are locked",
-                "img": "./imgs/nightmare2.png",
+                "img": "../imgs/nightmare2.png",
                 "value": ["gryffindor"]
             },
             {
                 "content": "Waking up to find that neither your friends nor your family have any idea who you are",
-                "img": "./imgs/nightmare3.png",
+                "img": "../imgs/nightmare3.png",
                 "value": ["hufflepuff"]
             },
             {
                 "content": "Being forced to speak in such a silly voice that hardly anyone can understand you, and everyone laughs at you",
-                "img": "./imgs/nightmare4.png",
+                "img": "../imgs/nightmare4.png",
                 "value": ["slytherin"]
             }
         ]

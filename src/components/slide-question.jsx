@@ -55,8 +55,8 @@ const SlideQuestion = ({ questionData, questionShift, currentQueston }) => {
             <div className="slideshow">
                 {currentAnswerIndex > 0 ? <div className="left" onClick={decAnsInt}><img src={LeftArrow} alt="" /></div> : <><span className="spacer"></span></>}
                 <div className="image-container">
-                <img src={containImg} alt="" className="front-img"/>
-                <img src={question.answers[currentAnswerIndex].img} className="back-img" alt=""/>
+                <img src={require(containImg)} alt="" className="front-img"/>
+                <img src={require(question.answers[currentAnswerIndex].img)} className="back-img" alt=""/>
                 {question.bgImg ? <img className="background-image-question" src={question.bgImg} alt=""></img> : <></>}
                 </div>
                 {currentAnswerIndex < question.answers.length - 1 ? <div className="right" onClick={incAnsInt}><img src={RightArrow} alt="" /></div> : <><span className="spacer"></span></>}
