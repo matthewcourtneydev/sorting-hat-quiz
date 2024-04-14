@@ -18,6 +18,7 @@ const Quiz = () => {
     });
   }
 
+
   function questionShift(answer) {
     // if (questionIterator + 1 >= questions.length) {
     if (questionIterator >= 10) {

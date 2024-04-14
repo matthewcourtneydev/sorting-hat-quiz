@@ -1,56 +1,46 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
-import houseData from "../house.json";
+import Nav from "../components/nav"
 
 const House = () => {
-  const housename = localStorage.getItem("hogwartsHouseName");
-  const navigate = useNavigate();
-  let houses = houseData[0];
-  const houseInfo = houses[housename];
 
-  function restartQuiz() {
-    localStorage.removeItem("hogwartsHouseName");
-    navigate("/");
+  function onHouseClick() {
+    console.log("House Clicked")
   }
 
-  let BackgroundStyles = {
-    background: `radial-gradient(${houseInfo.colors.light}, ${houseInfo.colors.dark}`,
-  };
-  let headerStyles = {
-    color: houseInfo.colors.secondaryLight,
-  };
+  function onPatronusClick() {
+    console.log("patronus clicked")
+  }
 
-  let buttonStyles = {
-    fontSize: "16px",
-    backgroundColor: houseInfo.colors.secondaryLight,
-    padding: "5px 20px",
-    border: "none",
-    boxShadow:
-      "rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px",
-  };
-
-  let lightButtonStyles = {
-    fontSize: "16px",
-    backgroundColor: houseInfo.colors.secondaryLight,
-    padding: "5px 20px",
-    border: "none",
-    boxShadow:
-      "rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px",
-    color: houseInfo.colors.light,
-  };
-
-  let lightText = {
-    color: houseInfo.colors.secondaryLight,
-  };
-
-  let darkText = {
-    color: houseInfo.colors.secondaryDark,
-  };
-
+  function onWandClick() {
+    console.log("wand clicked")
+  }
   return (
-    <div className="page">
+    <div className="house page">
+      <Nav />
+      <div className="portrait">
+        <h2>CREAtE YOUR PORtRAIt</h2>
+        <button className="start-portrait">START</button>
+      </div>
+      <h3>Matt Courtney</h3>
+      <div className="house-button-container">
+        <div className="btn-contain">
+          <button onClick={() => onHouseClick()}>+</button>
+          <div className="button-name">HOUSE</div>
+          <div className="button-value">Ravenclaw</div>
+        </div>
+        <div className="btn-contain">
+          <button onClick={() => onPatronusClick()}>+</button>
+          <div className="button-name">PATRONUS</div>
+          <div className="button-value">Unknown</div>
+        </div>
+        <div className="btn-contain">
+          <button onClick={() => onWandClick()}>+</button>
+          <div className="button-name">WAND</div>
+          <div className="button-value">Unknown</div>
+        </div>
+      </div>
       <div className="housepageFade"></div>
-      <div className={`page-content ${housename}`} style={BackgroundStyles}>
+      {/* <div className={`page-content ${housename}`} style={BackgroundStyles}>
         <p style={headerStyles} className="welcome">
           Welcome to
         </p>
@@ -82,7 +72,7 @@ const House = () => {
             </button>
           </>
         )}
-      </div>
+      </div> */}
     </div>
   );
 };
