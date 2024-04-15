@@ -1,7 +1,9 @@
-import React from "react";
+import { React, useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 import Nav from "../components/nav"
 
-const House = () => {
+const House = (props) => {
+  const navigate = useNavigate();
 
   function onHouseClick() {
     console.log("House Clicked")
@@ -14,29 +16,35 @@ const House = () => {
   function onWandClick() {
     console.log("wand clicked")
   }
+
+  useEffect(() => {
+    if(!Object.keys(props.userInfo).length) {
+      navigate("/login")
+    }
+  }, [])
   return (
     <div className="house page">
-      <Nav />
+      <Nav setUserInfo={props.setUserInfo} />
       <div className="portrait">
         <h2>CREAtE YOUR PORtRAIt</h2>
         <button className="start-portrait">START</button>
       </div>
-      <h3>Matt Courtney</h3>
+      <h3>{props.userInfo.first} {props.userInfo.last}</h3>
       <div className="house-button-container">
         <div className="btn-contain">
           <button onClick={() => onHouseClick()}>+</button>
           <div className="button-name">HOUSE</div>
-          <div className="button-value">Ravenclaw</div>
+          <div className="button-value">{props.userInfo.house || "Unknown"}</div>
         </div>
         <div className="btn-contain">
           <button onClick={() => onPatronusClick()}>+</button>
           <div className="button-name">PATRONUS</div>
-          <div className="button-value">Unknown</div>
+          <div className="button-value">{props.userInfo.patronus || "Unknown"}</div>
         </div>
         <div className="btn-contain">
           <button onClick={() => onWandClick()}>+</button>
           <div className="button-name">WAND</div>
-          <div className="button-value">Unknown</div>
+          <div className="button-value">{props.userInfo.wand || "Unknown"}</div>
         </div>
       </div>
       <div className="housepageFade"></div>

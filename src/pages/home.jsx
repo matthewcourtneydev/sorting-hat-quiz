@@ -3,12 +3,17 @@ import { useNavigate } from "react-router-dom";
 import SortingHatImg from "../imgs/sorting-hat.png";
 import WWlogo from "../imgs/ww-logo.png";
 
-const Home = () => {
+const Home = (props) => {
   const navigate = useNavigate();
 
   function startQuiz() {
-    console.log("starting quiz");
-    navigate("/quiz");
+    if (props.userInfo && Object.keys(props.userInfo).length) {
+      console.log("starting quiz");
+      navigate("/quiz");
+    } else {
+      console.log("going to sign up");
+      navigate("/signup");
+    }
   }
 
   return (
