@@ -1,8 +1,11 @@
-import { React, useRef } from "react";
+import { React, useRef, useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import WWLogo from "../imgs/ww-logo.png";
+import { RxEyeOpen } from "react-icons/rx";
+import { PiEyeClosed } from "react-icons/pi";
 
 const Signup = (props) => {
+  const [isPwHidden, setPwHidden] = useState(true);
   const navigate = useNavigate();
   const emailRef = useRef();
   const passwordRef = useRef();
@@ -15,20 +18,29 @@ const Signup = (props) => {
         password: passwordRef.current.value,
         first: firstRef.current.value,
         last: lastRef.current.value,
-        house: null,
+        house: "empty",
         patronus: null,
         wand: null
     };
 
     props.setUserInfo((prev) => userObj);
+    const prevLogins = JSON.parse(localStorage.getItem("mdc_sorting_hat_past_logins")) || [];
+    debugger;
     localStorage.setItem("mdc_sorting_hat_user_info", JSON.stringify(userObj))
-    localStorage.setItem("mdc_sorting_hat_past_logins", JSON.stringify([userObj, ...JSON.parse(localStorage.getItem("mdc_sorting_hat_past_logins"))]))
+    localStorage.setItem("mdc_sorting_hat_past_logins", JSON.stringify([userObj, ...prevLogins]))
     navigate("/house")
   }
+
+  useEffect(() => {
+    if (Object.keys(props.userInfo).length > 0) {
+      navigate("/house")
+    }
+  })
   return (
     <div className="page signup">
       <nav className="login-nav">
         <img src={WWLogo} alt="" />
+        <button className="login-nav" onClick={() => navigate("/login")}>LOG IN</button>
       </nav>
       <div className="signup-container">
         <h1>Sign Up</h1>
@@ -38,7 +50,8 @@ const Signup = (props) => {
         </div>
         <div className="input-field">
           <label htmlFor="password">PASSWORD</label>
-          <input ref={passwordRef} type="password" />
+          <input ref={passwordRef} type={isPwHidden ? "password" : "text"}  id="password" />
+<span className="eye" onClick={() => setPwHidden((prev) => !prev)}>{isPwHidden ? <RxEyeOpen /> : <PiEyeClosed />}</span>
         </div>
         <div className="name-container">
           <div className="first">

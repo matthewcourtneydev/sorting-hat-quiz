@@ -6,7 +6,7 @@ import QuizQuestion from "../components/quiz-question";
 import SlideQuestion from "../components/slide-question";
 import Logo from "../imgs/ww-logo.png"
 
-const Quiz = () => {
+const Quiz = (props) => {
   const questions = questionData;
   const [questionIterator, setQuestionIterator] = useState(0);
   const [answerArray, addToAnswerArray] = useState([]);
@@ -21,7 +21,8 @@ const Quiz = () => {
 
   function questionShift(answer) {
     // if (questionIterator + 1 >= questions.length) {
-    if (questionIterator >= 10) {
+    if (questionIterator >= 2) {
+      debugger;
       const finalAnswerArray = [...answerArray, ...answer];
 
       const houseChoiceData = {
@@ -38,8 +39,16 @@ const Quiz = () => {
       let houseSelection = Object.keys(houseChoiceData).reduce((a, b) =>
         houseChoiceData[a] > houseChoiceData[b] ? a : b
       );
-      localStorage.setItem("hogwartsHouseName", houseSelection);
-      console.log("Quiz Over", houseSelection);
+      // localStorage.setItem("hogwartsHouseName", houseSelection);
+      // console.log("Quiz Over", houseSelection);
+      props.setUserInfo((prev) => {
+        return {
+          ...prev,
+          house: houseSelection
+        }
+      });
+debugger;
+      localStorage.setItem("mdc_sorting_hat_user_info", JSON.stringify({...props.userInfo, house: houseSelection}))
       navigate("/poem");
     } else {
       logAnswer(answer);

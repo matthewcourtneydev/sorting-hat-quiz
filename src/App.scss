@@ -54,10 +54,30 @@ h1 {
 .login,
 .signup {
   padding: 20px;
+  overflow: scroll;
   nav {
+    position: relative;
     img {
       max-width: 75px;
       min-width: 75px;
+    }
+
+    button {
+      position: absolute;
+      right: 10px;
+      font-size: 12px;
+      top: 20px;
+      top: 0;
+      bottom: 0;
+      height: fit-content;
+      margin: auto;
+      background-color: #6b63b5;
+      border: none;
+      border-radius: 25px;
+      padding: 8px 17px;
+      color: white;
+      font-weight: bold;
+      overflow: hidden;
     }
   }
 
@@ -87,6 +107,7 @@ h1 {
     .input-field {
       display: flex;
       flex-direction: column;
+      position: relative;
 
       label {
         margin-bottom: 7px;
@@ -104,6 +125,16 @@ h1 {
         padding-left: 20px;
         font-size: 18px;
       }
+
+      .eye {
+        position: absolute;
+        right: 15px;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        max-height: 30%;
+        font-size: 30px;
+      }
       &:focus-within {
         input {
           outline: none;
@@ -116,14 +147,17 @@ h1 {
     }
     a {
       margin-top: -10px;
+      color: #b6b0f2;
+      font-family: sans-serif;
     }
 
     button {
+      overflow: hidden;
       max-width: 100%;
       background: none;
       max-height: 50px;
       min-height: 50px;
-      background-color: purple;
+      background-color: #6b63b5;
       color: white;
       border: none;
       border-radius: 25px;
@@ -145,7 +179,8 @@ h1 {
       max-width: 100%;
     }
 
-    .first, .last {
+    .first,
+    .last {
       max-width: 50%;
     }
     label {
@@ -192,7 +227,11 @@ h1 {
   }
 }
 
-.house {
+.house-ravenclaw,
+.house-hufflepuff,
+.house-slytherin,
+.house-gryffindor, 
+.house-empty {
   background-color: rgb(48, 104, 235);
   background-image: linear-gradient(
     to top,
@@ -211,6 +250,11 @@ h1 {
     justify-content: space-between;
     flex-direction: row;
     align-items: center;
+  }
+
+  h3 {
+    font-size: 30px;
+    color: white;
   }
 
   .portrait {
@@ -252,11 +296,6 @@ h1 {
     }
   }
 
-  h3 {
-    font-size: 30px;
-    color: white;
-  }
-
   .house-button-container {
     max-width: 80svw;
     display: flex;
@@ -284,6 +323,136 @@ h1 {
       .button-value {
         color: white;
         margin-top: 5px;
+      }
+    }
+  }
+}
+
+.house-hufflepuff {
+  background-color: rgb(255, 140, 0);
+  background-image: linear-gradient(
+    to top,
+    rgb(27, 19, 4) 10%,
+    rgba(58, 44, 30, 0.423) 85%
+  );
+
+  .navbar {
+    background-color: rgb(192, 122, 35);
+  }
+
+  .portrait {
+    background-color: rgb(46, 28, 4);
+    background-image: url("../src/imgs/portrait1.png");
+
+    .start-portrait {
+      background-color: rgb(225, 151, 39);
+    }
+  }
+
+  .house-button-container {
+    .btn-contain {
+      button {
+        background-color: rgb(160, 109, 22);
+      }
+
+    }
+  }
+}
+
+.house-slytherin {
+  background-color: rgb(9, 50, 46);
+  background-image: linear-gradient(
+    to top,
+    rgb(3, 18, 11) 10%,
+    rgba(30, 58, 45, 0.423) 85%
+  );
+
+  .navbar {
+    background-color: rgb(11, 35, 32);
+  }
+
+  .portrait {
+    background-color: rgb(5, 37, 27);
+    background-image: url("../src/imgs/portrait1.png");
+    h2 {
+      color: rgb(57, 177, 143);
+    }
+
+    .start-portrait {
+      background-color: rgb(43, 128, 104);
+    }
+  }
+
+  .house-button-container {
+    .btn-contain {
+      button {
+        background-color: rgb(15, 45, 39);
+      }
+    }
+  }
+}
+
+.house-gryffindor {
+  background-color: rgb(141, 8, 8);
+  background-image: linear-gradient(
+    to top,
+    rgb(27, 3, 3) 10%,
+    rgba(58, 30, 30, 0.423) 85%
+  );
+
+  .navbar {
+    background-color: rgb(87, 31, 31);
+  }
+
+  .portrait {
+    background-color: rgb(37, 5, 5);
+    background-image: url("../src/imgs/portrait1.png");
+    h2 {
+      color: rgb(241, 127, 101);
+    }
+
+    .start-portrait {
+      background-color: rgb(128, 57, 57);
+    }
+  }
+
+  .house-button-container {
+    .btn-contain {
+      button {
+        background-color: rgb(81, 16, 16);
+      }
+    }
+  }
+}
+
+.house-empty {
+  background-color: rgb(61, 52, 100);
+  background-image: linear-gradient(
+    to top,
+    rgb(7, 3, 27) 10%,
+    rgba(21, 18, 39, 0.423) 85%
+  );
+
+  .navbar {
+    background-color: rgb(72, 66, 141);
+  }
+
+  .portrait {
+    background-color: rgb(35, 30, 75);
+    background-image: url("../src/imgs/portrait1.png");
+    h2 {
+      color: rgb(192, 180, 245);
+    }
+
+    .start-portrait {
+      background-color: rgb(91, 83, 152);
+    }
+  }
+
+  .house-button-container {
+    .btn-contain {
+      button {
+        background-color: rgb(65, 57, 132);
       }
     }
   }

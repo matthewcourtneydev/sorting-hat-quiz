@@ -7,7 +7,8 @@ const Home = (props) => {
   const navigate = useNavigate();
 
   function startQuiz() {
-    if (props.userInfo && Object.keys(props.userInfo).length) {
+    debugger;
+    if (props.userInfo && Object.keys(props.userInfo).length > 0) {
       console.log("starting quiz");
       navigate("/quiz");
     } else {

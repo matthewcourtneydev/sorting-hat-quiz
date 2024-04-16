@@ -6,7 +6,7 @@ import Home from "./pages/home";
 import Login from "./pages/login";
 import Signup from "./pages/signup";
 import Quiz from "./pages/quiz";
-import House from "./pages/house";
+import MyHouse from "./pages/my-house";
 import Poem from "./pages/poem";
 
 function App() {
@@ -14,11 +14,11 @@ function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path={"/"} element={<Home userInfo={userInfo} />} />
+        <Route path={"/"} element={<Signup setUserInfo={setUserInfo} userInfo={userInfo}/>} />
         <Route path={"/login"} element={<Login setUserInfo={setUserInfo} userInfo={userInfo}/>} />
-        <Route path={"/signup"} element={<Signup setUserInfo={setUserInfo} userInfo={userInfo}/>} />
-        <Route path={"/quiz"} element={<Quiz />} />
-        <Route path={"/house"} element={<House setUserInfo={setUserInfo} userInfo={userInfo} />}/>
+        <Route path={"/quiz-start"} element={<Home userInfo={userInfo} />} />
+        <Route path={"/quiz"} element={<Quiz setUserInfo={setUserInfo} userInfo={userInfo}/>} />
+        <Route path={"/house"} element={<MyHouse setUserInfo={setUserInfo} userInfo={userInfo} />}/>
         <Route path={"/poem"} element={<Poem />}/>
       </Routes>
     </div>

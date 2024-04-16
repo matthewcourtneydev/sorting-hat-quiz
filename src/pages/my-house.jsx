@@ -2,11 +2,12 @@ import { React, useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import Nav from "../components/nav"
 
-const House = (props) => {
+const MyHouse = (props) => {
   const navigate = useNavigate();
 
   function onHouseClick() {
-    console.log("House Clicked")
+    console.log("House Clicked");
+    navigate("/quiz-start")
   }
 
   function onPatronusClick() {
@@ -22,8 +23,9 @@ const House = (props) => {
       navigate("/login")
     }
   }, [])
-  return (
-    <div className="house page">
+  return (Object.keys(props.userInfo).length > 0 &&
+    // <div className={`house-${props.userInfo.house.toLowerCase()} page`}>
+    <div className={`house-${props.userInfo.house.toLowerCase()} page`}>
       <Nav setUserInfo={props.setUserInfo} />
       <div className="portrait">
         <h2>CREAtE YOUR PORtRAIt</h2>
@@ -34,7 +36,7 @@ const House = (props) => {
         <div className="btn-contain">
           <button onClick={() => onHouseClick()}>+</button>
           <div className="button-name">HOUSE</div>
-          <div className="button-value">{props.userInfo.house || "Unknown"}</div>
+          <div className="button-value">{props.userInfo.house !== "empty" ? props.userInfo.house : "Unknown"}</div>
         </div>
         <div className="btn-contain">
           <button onClick={() => onPatronusClick()}>+</button>
@@ -48,41 +50,8 @@ const House = (props) => {
         </div>
       </div>
       <div className="housepageFade"></div>
-      {/* <div className={`page-content ${housename}`} style={BackgroundStyles}>
-        <p style={headerStyles} className="welcome">
-          Welcome to
-        </p>
-        <h1 style={headerStyles}>{houseInfo.housename}</h1>
-        <img src={houseInfo.badgeImg} alt="" className="badge" />
-        <div style={headerStyles} className="slogan">
-          {houseInfo.slogan}
-        </div>
-        {houseInfo.housename === "Hufflepuff" ? (
-          <>
-            <div style={headerStyles} className="information">
-              {houseInfo.welcomeMessages.map((paragraph) => {
-                return <p style={darkText}>{paragraph.text}</p>;
-              })}
-            </div>
-            <button style={lightButtonStyles} onClick={restartQuiz}>
-              Retake Quiz
-            </button>
-          </>
-        ) : (
-          <>
-            <div style={headerStyles} className="information">
-              {houseInfo.welcomeMessages.map((paragraph) => {
-                return <p style={lightText}>{paragraph.text}</p>;
-              })}
-            </div>
-            <button style={buttonStyles} onClick={restartQuiz}>
-              Retake Quiz
-            </button>
-          </>
-        )}
-      </div> */}
     </div>
   );
 };
 
-export default House;
+export default MyHouse;
