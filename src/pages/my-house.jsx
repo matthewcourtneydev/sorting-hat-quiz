@@ -1,9 +1,20 @@
 import { React, useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
+import RavenclawBadge from "../imgs/ravenclaw-badge.png"
+import SlytherinBadge from "../imgs/slytherin-badge.png"
+import GryffindorBadge from "../imgs/gryffindor-badge.png"
 import Nav from "../components/nav"
 
 const MyHouse = (props) => {
   const navigate = useNavigate();
+
+  function determinBadge() {
+    switch (props.userInfo.house) {
+      case "ravenclaw" : return RavenclawBadge
+      case "slytherin" : return SlytherinBadge
+      case "gryffindor" : return GryffindorBadge
+    }
+  }
 
   function onHouseClick() {
     console.log("House Clicked");
@@ -33,11 +44,22 @@ const MyHouse = (props) => {
       </div>
       <h3>{props.userInfo.first} {props.userInfo.last}</h3>
       <div className="house-button-container">
-        <div className="btn-contain">
+      {props.userInfo.house !== "empty" ? 
+              <div className="btn-contain">
+              <div className="house-btn">
+                <img src={determinBadge()} alt="" />
+              </div>
+              <div className="button-name">HOUSE</div>
+              <div className="button-value">{props.userInfo.house !== "empty" ? props.userInfo.house : "Unknown"}</div>
+            </div>
+    
+    :
+    <div className="btn-contain">
           <button onClick={() => onHouseClick()}>+</button>
           <div className="button-name">HOUSE</div>
           <div className="button-value">{props.userInfo.house !== "empty" ? props.userInfo.house : "Unknown"}</div>
         </div>
+        }
         <div className="btn-contain">
           <button onClick={() => onPatronusClick()}>+</button>
           <div className="button-name">PATRONUS</div>
