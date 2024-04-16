@@ -243,7 +243,7 @@ h1 {
     background-color: rgb(18, 53, 86);
     min-width: 100svw;
     color: white;
-    min-height: fit-content;
+    min-height: 95px;
     padding: 20px 30px;
     display: flex;
     font-size: 33px;
@@ -468,6 +468,76 @@ h1 {
       }
     }
   }
+}
+
+.overlay {
+  background-color: rgb(24, 2, 2);
+  background-image: linear-gradient(
+    to top,
+    rgb(4, 9, 27) 10%,
+    rgba(32, 30, 58, 0.423) 85%
+  );
+  color: white;
+  position: absolute;
+  top: 100px;
+  width: 100svw;
+  height: calc(100svh - 95px);
+  padding-top: 18svh;
+
+  span {
+    position: absolute;
+    right: 30px;
+    top: 15px;
+    font-size: 32px;
+  }
+
+  p {
+    font-size: 16px;
+    max-width: 90%;
+    margin: auto;
+  }
+
+  .house-words {
+    font-size: 20px;
+    font-family: "Mason";
+  }
+
+  div {
+    margin: 30px
+  }
+
+  .house-welcome {
+    font-size: 34px;
+    font-family: "Mason";
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  .paragraph {
+    max-width: 85%;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: lighter;
+    font-family: sans-serif;
+    text-align: justify;
+
+    .first-letter {
+      font-size: 70px;
+      color: green;
+      font-family: serif;
+      vertical-align: middle;
+      position: relative;
+      max-width: fit-content;
+      max-height: 53px;
+      min-height: 53px;
+      margin-left: 30px;
+      margin-right: -20px;
+      margin-bottom: 0px;
+      margin-top: 0;
+      float: left;
+    }
+  }
+
 }
 
 .page-content {

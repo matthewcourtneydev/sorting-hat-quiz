@@ -1,5 +1,6 @@
 import { React, useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
+import HouseIntro from "../components/house-intro";
 import RavenclawBadge from "../imgs/ravenclaw-badge.png"
 import SlytherinBadge from "../imgs/slytherin-badge.png"
 import GryffindorBadge from "../imgs/gryffindor-badge.png"
@@ -7,6 +8,7 @@ import Nav from "../components/nav"
 
 const MyHouse = (props) => {
   const navigate = useNavigate();
+  const [isIntroOpen, setIsIntroOpen] = useState(true);
 
   function determinBadge() {
     switch (props.userInfo.house) {
@@ -46,7 +48,7 @@ const MyHouse = (props) => {
       <div className="house-button-container">
       {props.userInfo.house !== "empty" ? 
               <div className="btn-contain">
-              <div className="house-btn">
+              <div className="house-btn" onClick={() => setIsIntroOpen((prev) => !prev)}>
                 <img src={determinBadge()} alt="" />
               </div>
               <div className="button-name">HOUSE</div>
@@ -71,6 +73,7 @@ const MyHouse = (props) => {
           <div className="button-value">{props.userInfo.wand || "Unknown"}</div>
         </div>
       </div>
+      {props.userInfo.house !== "empty" && isIntroOpen ? <HouseIntro isIntroOpen={isIntroOpen} setIsIntroOpen={setIsIntroOpen}/> : <></>}
       <div className="housepageFade"></div>
     </div>
   );
