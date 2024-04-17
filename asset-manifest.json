@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/sorting-hat-quiz/static/css/main.9302f5a1.css",
-    "main.js": "/sorting-hat-quiz/static/js/main.469fd729.js",
+    "main.js": "/sorting-hat-quiz/static/js/main.5163508a.js",
     "static/media/splatter5-large.png": "/sorting-hat-quiz/static/media/splatter5-large.770d3d5c096c27f697b7.png",
     "static/media/splatter3-large.png": "/sorting-hat-quiz/static/media/splatter3-large.ffc3b899c98eb75be477.png",
     "static/media/splatter4-large.png": "/sorting-hat-quiz/static/media/splatter4-large.0721fad52a08abd58b17.png",
@@ -40,10 +40,10 @@
     "static/media/portrait1.png": "/sorting-hat-quiz/static/media/portrait1.f48b24f8e6621005e1f1.png",
     "index.html": "/sorting-hat-quiz/index.html",
     "main.9302f5a1.css.map": "/sorting-hat-quiz/static/css/main.9302f5a1.css.map",
-    "main.469fd729.js.map": "/sorting-hat-quiz/static/js/main.469fd729.js.map"
+    "main.5163508a.js.map": "/sorting-hat-quiz/static/js/main.5163508a.js.map"
   },
   "entrypoints": [
     "static/css/main.9302f5a1.css",
-    "static/js/main.469fd729.js"
+    "static/js/main.5163508a.js"
   ]
 }
