@@ -479,10 +479,11 @@ h1 {
   );
   color: white;
   position: absolute;
-  top: 100px;
+  top: 95px;
   width: 100svw;
-  height: calc(100svh - 95px);
+  height: fit-content;
   padding-top: 18svh;
+  overflow-y: scroll;
 
   span {
     position: absolute;
@@ -510,7 +511,8 @@ h1 {
     font-size: 34px;
     font-family: "Mason";
     font-weight: bold;
-    margin-bottom: 20px;
+    margin-bottom: 20px; 
+    
   }
 
   .paragraph {
@@ -520,10 +522,10 @@ h1 {
     font-weight: lighter;
     font-family: sans-serif;
     text-align: justify;
+    padding-bottom: 15svh;
 
     .first-letter {
       font-size: 70px;
-      color: green;
       font-family: serif;
       vertical-align: middle;
       position: relative;
@@ -535,9 +537,94 @@ h1 {
       margin-bottom: 0px;
       margin-top: 0;
       float: left;
+      font-weight: bold;
     }
   }
 
+  .secondary {
+    background-color: green;
+    width: 100svw;
+    height: 100svh;
+    margin: auto;
+    padding: 30px;
+
+    img {
+      max-width: 100%;
+      height: auto;
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+
+    h2 {
+      max-width: 90%;
+      margin: auto;
+      font-family: "Mason";
+      font-size: 35px;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-family: sans-serif;
+      font-size: 20px;
+    }
+
+    .share {
+      position: absolute;
+      background: none;
+      border: solid 1px white;
+      border-radius: 25px;
+      padding: 7px 12px;
+      color: white;
+      width: 75%;
+      bottom: 5%;
+      left: 0;
+      right: 0;
+      margin: auto;
+      min-height: 45px;
+      padding-left: 40px;
+      font-size: 16px;
+
+      span {
+        left: 13%;
+        top: -5px;
+        font-size: 25px;
+        max-width: fit-content;
+      }
+    }
+  }
+
+  .other-house-members {
+    background-color: rgb(0, 0, 0);
+    width: 100svw;
+    height: 100svh;
+    margin: auto;
+    padding: 0px;
+    padding-top: 20%;
+
+    // position: fixed;
+    // top: 0;
+    // left: 0;
+
+    h3 {
+      font-family: "Mason";
+      font-size: 24px;
+      max-width: 100%;
+      margin: auto;
+    }
+
+    h4 {
+      font-size: 35px;
+      margin: auto;
+      margin-top: 10px;
+    }
+
+    .card-container {
+      background-color: green;
+      width: fit-content;
+      min-width: 100svw;
+      min-height: 70%;
+    }
+  }
 }
 
 .page-content {

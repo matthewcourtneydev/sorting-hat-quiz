@@ -1,18 +1,41 @@
-import React from 'react';
+import React from "react";
 import { RxCross1 } from "react-icons/rx";
-
+import { GiOwl } from "react-icons/gi";
+import HouseInfo from "../house.json";
+import ShieldImg from "../imgs/secondary-shield-slytherin.webp";
 
 const HouseIntro = (props) => {
-    return (
-        <div className="overlay">
-            <span onClick={() => props.setIsIntroOpen((prev) => !prev)}><RxCross1 /></span>
-            <p className="house-words">pride, ambition, cunning</p>
-            <h1>Slytherin</h1>
-            <div className="triangle">+++</div>
-            <p className="house-welcome">WELCOME TO SLYTHERIN</p>
-            <p className="paragraph"><span className='first-letter'>Y</span>ou probably know that some of Slytherin's most renowned memebers include Severus Snape and Bellatrix Lestrange. But did you know Merlin himself was a slytherin, or that according to legend, the ribbon of a First Class Order of Merlin is green to reflect his Hogwarts house?</p>
+  let houseData = HouseInfo[props.userInfo.house];
+  return (
+    <div className="overlay">
+      <span onClick={() => props.setIsIntroOpen((prev) => !prev)}>
+        <RxCross1 />
+      </span>
+      <p className="house-words">{houseData.words}</p>
+      <h1>{houseData.name}</h1>
+      <div className="triangle">+++</div>
+      <div className="house-welcome">welcome to {houseData.name}</div>
+      <p className="paragraph">
+        <span className="first-letter" style={{ color: houseData.color }}>
+          {houseData.firstLetter}
+        </span>
+        {houseData.text}
+      </p>
+      <div className="secondary">
+        <img src={ShieldImg} alt="" />
+        <h2>the sorting hat has spoken!</h2>
+        <p>and you're not alone</p>
+        <button className="share"><span><GiOwl /></span>SHARE YOUR HOUSE</button>
+      </div>
+      <div className="other-house-members">
+        <h3>cunning and determination</h3>
+        <h4>Fellow Slytherins</h4>
+        <div className="card-container">
+            
         </div>
-    );
-}
+      </div>
+    </div>
+  );
+};
 
 export default HouseIntro;
