@@ -15,7 +15,7 @@ const MyHouse = (props) => {
     "password": "test",
     "first": "Matthew",
     "last": "Courtney",
-    "house": "slytherin",
+    "house": "hufflepuff",
     "patronus": null,
     "wand": null
   }
