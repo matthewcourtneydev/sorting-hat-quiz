@@ -4,6 +4,8 @@
     "words": "pride, ambition, cunning",
     "firstLetter": "Y",
     "color": "rgb(45, 94, 82)",
+    "adjective": "ambitious",
+    "numberJoined": "647",
     "text": "ou probably know that some of Slytherin's most renowned memebers include Severus Snape and Bellatrix Lestrange. But did you know Merlin himself was a slytherin, or that according to legend, the ribbon of a First Class Order of Merlin is green to reflect his Hogwarts house?",
     "membersData": {
       "header": "cunning and determination",
@@ -52,6 +54,8 @@
     "words": "wit, learning, wisdom",
     "firstLetter": "Y",
     "color": "rgb(31, 79, 162)",
+    "adjective": "wise",
+    "numberJoined": "281",
     "text": "ou probably know that some of Ravenclaw’s most renowned members include Gilderoy Lockhart and Luna Lovegood. But did you know Ravenclaw’s Grey Lady is the least talkative Hogwarts house ghost, or that Ravenclaw’s common room boasts the most stunning views of the castle grounds?",
     "membersData": {
       "header": "wit beyond measure",
@@ -102,6 +106,8 @@
     "words": "courage and bravery",
     "firstLetter": "Y",
     "color": "rgb(115, 39, 39)",
+    "adjective": "brave",
+    "numberJoined": "845",
     "text": "ou  probably know that some of Gryffindor’s most renowned members include Albus Dumbledore and Harry Potter. But did you know the sword of Gryffindor was made a thousand years ago by goblins, or that Head of House Minerva McGonagall’s hobbies include correcting articles in Transfiguration Today and supporting the Montrose Magpies?",
     "membersData": {
       "header": "courage and bravery",
@@ -143,6 +149,8 @@
     "words": "dedication, patience, loyalty",
     "firstLetter": "Y",
     "color": "rgb(168, 107, 22)",
+    "adjective": "loyal",
+    "numberJoined": "329",
     "text": "ou probably know that some of Hufflepuff’s most renowned members include Nymphadora Tonks and Cedric Diggory. But did you know that Hufflepuff’s house ghost, the Fat Friar, still resents the fact he was never made a cardinal? Or that Hufflepuff has produced the fewest Dark wizards of any house at Hogwarts?",
     "membersData": {
       "header": "dedication, patience, loyalty",

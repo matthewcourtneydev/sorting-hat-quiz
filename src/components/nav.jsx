@@ -15,7 +15,7 @@ const Nav = (props) => {
         <nav className="navbar">
             <span><RxHamburgerMenu /></span>
             <img src={WWlogo} className="logo" alt="logo" />
-            <span><GoGear onClick={() => handleLogOut()} /></span>
+            <span><GoGear onClick={() => props.setIsMenuOpen((prev) => true)} /></span>
         </nav>
     );
 }

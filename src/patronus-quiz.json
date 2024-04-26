@@ -1,0 +1,47 @@
+{
+    "0": [
+        ["Sun", "Wind", "Rain"],
+        ["Dream", "Discover", "Dance"],
+        ["Seek", "Protect", "Serve"],
+        ["Leaf", "Blade", "Thorn"],
+        ["Shine", "Glitter", "Glow"]
+    ],
+    "1": [
+        ["Bright", "Shadow"],
+        ["Blood", "Bone"],
+        ["Warm", "Cold"],
+        ["Sweet", "Salt"],
+        ["Make", "Improve"],
+        ["Rough", "Smooth"]
+    ],
+    "2": [
+        ["Play", "Prowl", "Preen"],
+        ["Lead", "Save", "Escape"],
+        ["Over", "Under", "Around"],
+        ["Think", "Feel", "Sense"],
+        ["Stone", "Wood", "Earth"]
+    ],
+    "3": [
+        ["Speak", "Silent"],
+        ["Who", "Why"],
+        ["Free", "Safe"],
+        ["Forever", "Sometimes"],
+        ["Together", "Alone"],
+        ["Lost", "Found"]
+    ],
+    "4": [
+        ["Comfort", "Advise", "Impress"],
+        ["Hope", "Trust", "Love"],
+        ["Watch", "Listen", "Touch"],
+        ["Mind", "Heart", "Spirit"],
+        ["Black", "White", "Grey"]
+    ],
+    "5": [
+        ["Hunt", "Create"],
+        ["Ripple", "Wave"],
+        ["Asleep", "Awake"],
+        ["Sharp", "Sleek"],
+        ["High", "Deep"],
+        ["Frost", "Dew"]
+    ]
+}

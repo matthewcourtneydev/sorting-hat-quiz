@@ -1,0 +1,1547 @@
+{
+  "patronusArray": [
+    {
+      "name": "Ardvark",
+      "firstQuestion": ["Glow", "Blade", "Wind", "Serve", "Dance"],
+      "secondQuestion": ["Make", "Bright", "Sweet", "Warm", "Bone", "Smooth"],
+      "thirdQuestion": ["Escape", "Preen", "Sense", "Earth", "Around"],
+      "fourthQuestion": [
+        "Forever",
+        "Who",
+        "Safe",
+        "Together",
+        "Found",
+        "Speak"
+      ],
+      "fifthQuestion": ["Hope", "Black", "Mind", "Advise", "Listen"],
+      "description": ""
+    },
+    {
+      "name": "Arbraxan Winged Horse",
+      "firstQuestion": ["Glow", "Blade", "Wind", "Serve", "Dance"],
+      "secondQuestion": ["Make", "Bright", "Sweet", "Warm", "Bone", "Smooth"],
+      "thirdQuestion": ["Escape", "Preen", "Sense", "Earth", "Around"],
+      "fourthQuestion": ["Sometimes", "Why", "Free", "Alone", "Lost", "Silent"],
+      "fifthQuestion": ["Trust", "Grey", "Spirit", "Impress", "Touch"],
+      "description": ""
+    },
+    {
+      "name": "Adder",
+      "firstQuestion": ["Shine", "Thorne", "Rain", "Seek", "Discover"],
+      "secondQuestion": ["Make", "Bright", "Sweet", "Warm", "Bone", "Smooth"],
+      "thirdQuestion": ["Lead", "Prowl", "Think", "Stone", "Under"],
+      "fourthQuestion": ["Sometimes", "Why", "Free", "Alone", "Lost", "Silent"],
+      "fifthQuestion": ["Trust", "Grey", "Spirit", "Impress", "Touch"],
+      "description": ""
+    },
+    {
+      "name": "Badger",
+      "firstQuestion": ["Glitter", "Leaf", "Sun", "Protect", "Dream"],
+      "secondQuestion": ["Make", "Bright", "Sweet", "Warm", "Bone", "Smooth"],
+      "thirdQuestion": ["Escape", "Preen", "Sense", "Earth", "Around"],
+      "fourthQuestion": [
+        "Forever",
+        "Who",
+        "Safe",
+        "Together",
+        "Found",
+        "Speak"
+      ],
+      "fifthQuestion": ["Hope", "Black", "Mind", "Advise", "Listen"],
+      "description": ""
+    },
+    {
+      "name": "Bassett Hound",
+      "firstQuestion": ["Glitter", "Leaf", "Sun", "Protect", "Dream"],
+      "secondQuestion": ["Make", "Bright", "Sweet", "Warm", "Bone", "Smooth"],
+      "thirdQuestion": ["Save", "Play", "Feel", "Wood", "Over"],
+      "fourthQuestion": ["Sometimes", "Why", "Free", "Alone", "Lost", "Silent"],
+      "fifthQuestion": ["Hope", "Black", "Mind", "Advise", "Listen"],
+      "description": ""
+    },
+    {
+      "name": "Bat",
+      "firstQuestion": ["Shine", "Thorne", "Rain", "Seek", "Discover"],
+      "secondQuestion": ["Make", "Bright", "Sweet", "Warm", "Bone", "Smooth"],
+      "thirdQuestion": ["Escape", "Preen", "Sense", "Earth", "Around"],
+      "fourthQuestion": ["Sometimes", "Why", "Free", "Alone", "Lost", "Silent"],
+      "fifthQuestion": ["Hope", "Black", "Mind", "Advise", "Listen"],
+      "description": ""
+    },
+    {
+      "name": "Bay Mare/ Stallion",
+      "firstQuestion": ["Shine", "Thorne", "Rain", "Seek", "Discover"],
+      "secondQuestion": ["Make", "Bright", "Sweet", "Warm", "Bone", "Smooth"],
+      "thirdQuestion": ["Save", "Play", "Feel", "Wood", "Over"],
+      "fourthQuestion": ["Sometimes", "Why", "Free", "Alone", "Lost", "Silent"],
+      "fifthQuestion": ["Love", "White", "Heart", "Comfort", "Watch"],
+      "description": ""
+    },
+    {
+      "name": "Beagle",
+      "firstQuestion": ["Shine", "Thorne", "Rain", "Seek", "Discover"],
+      "secondQuestion": ["Improve", "Shadow", "Salt", "Cold", "Blood", "Rough"],
+      "thirdQuestion": ["Save", "Play", "Feel", "Wood", "Over"],
+      "fourthQuestion": ["Sometimes", "Why", "Free", "Alone", "Lost", "Silent"],
+      "fifthQuestion": ["Love", "White", "Heart", "Comfort", "Watch"],
+      "description": ""
+    },
+    {
+      "name": "Black and White Cat",
+      "firstQuestion": ["Glitter", "Leaf", "Sun", "Protect", "Dream"],
+      "secondQuestion": ["Make", "Bright", "Sweet", "Warm", "Bone", "Smooth"],
+      "thirdQuestion": ["Lead", "Prowl", "Think", "Stone", "Under"],
+      "fourthQuestion": [
+        "Forever",
+        "Who",
+        "Safe",
+        "Together",
+        "Found",
+        "Speak"
+      ],
+      "fifthQuestion": ["Love", "White", "Heart", "Comfort", "Watch"],
+      "description": ""
+    },
+    {
+      "name": "Black Bear/ Rhino",
+      "firstQuestion": ["Shine", "Thorne", "Rain", "Seek", "Discover"],
+      "secondQuestion": ["Make", "Bright", "Sweet", "Warm", "Bone", "Smooth"],
+      "thirdQuestion": ["Escape", "Preen", "Sense", "Earth", "Around"],
+      "fourthQuestion": ["Sometimes", "Why", "Free", "Alone", "Lost", "Silent"],
+      "fifthQuestion": ["Trust", "Grey", "Spirit", "Impress", "Touch"],
+      "description": ""
+    },
+    {
+      "name": "Black Mamba",
+      "firstQuestion": ["Glow", "Blade", "Wind", "Serve", "Dance"],
+      "secondQuestion": ["Improve", "Shadow", "Salt", "Cold", "Blood", "Rough"],
+      "thirdQuestion": ["Escape", "Preen", "Sense", "Earth", "Around"],
+      "fourthQuestion": ["Sometimes", "Why", "Free", "Alone", "Lost", "Silent"],
+      "fifthQuestion": ["Hope", "Black", "Mind", "Advise", "Listen"],
+      "description": ""
+    },
+    {
+      "name": "Black Mare/ Stallion",
+      "firstQuestion": ["Glow", "Blade", "Wind", "Serve", "Dance"],
+      "secondQuestion": ["Make", "Bright", "Sweet", "Warm", "Bone", "Smooth"],
+      "thirdQuestion": ["Save", "Play", "Feel", "Wood", "Over"],
+      "fourthQuestion": [
+        "Forever",
+        "Who",
+        "Safe",
+        "Together",
+        "Found",
+        "Speak"
+      ],
+      "fifthQuestion": ["Love", "White", "Heart", "Comfort", "Watch"],
+      "description": ""
+    },
+    {
+      "name": "Black Swan",
+      "firstQuestion": ["Glitter", "Leaf", "Sun", "Protect", "Dream"],
+      "secondQuestion": ["Improve", "Shadow", "Salt", "Cold", "Blood", "Rough"],
+      "thirdQuestion": ["Lead", "Prowl", "Think", "Stone", "Under"],
+      "fourthQuestion": [
+        "Forever",
+        "Who",
+        "Safe",
+        "Together",
+        "Found",
+        "Speak"
+      ],
+      "fifthQuestion": ["Hope", "Black", "Mind", "Advise", "Listen"],
+      "description": ""
+    },
+    {
+      "name": "Blackbird",
+      "firstQuestion": ["Shine", "Thorne", "Rain", "Seek", "Discover"],
+      "secondQuestion": ["Make", "Bright", "Sweet", "Warm", "Bone", "Smooth"],
+      "thirdQuestion": ["Escape", "Preen", "Sense", "Earth", "Around"],
+      "fourthQuestion": [
+        "Forever",
+        "Who",
+        "Safe",
+        "Together",
+        "Found",
+        "Speak"
+      ],
+      "fifthQuestion": ["Hope", "Black", "Mind", "Advise", "Listen"],
+      "description": ""
+    },
+    {
+      "name": "Bloodhound",
+      "firstQuestion": ["Glitter", "Leaf", "Sun", "Protect", "Dream"],
+      "secondQuestion": ["Improve", "Shadow", "Salt", "Cold", "Blood", "Rough"],
+      "thirdQuestion": ["Escape", "Preen", "Sense", "Earth", "Around"],
+      "fourthQuestion": [
+        "Forever",
+        "Who",
+        "Safe",
+        "Together",
+        "Found",
+        "Speak"
+      ],
+      "fifthQuestion": ["Love", "White", "Heart", "Comfort", "Watch"],
+      "description": ""
+    },
+    {
+      "name": "Borzoi",
+      "firstQuestion": ["Glitter", "Leaf", "Sun", "Protect", "Dream"],
+      "secondQuestion": ["Improve", "Shadow", "Salt", "Cold", "Blood", "Rough"],
+      "thirdQuestion": ["Save", "Play", "Feel", "Wood", "Over"],
+      "fourthQuestion": [
+        "Forever",
+        "Who",
+        "Safe",
+        "Together",
+        "Found",
+        "Speak"
+      ],
+      "fifthQuestion": ["Trust", "Grey", "Spirit", "Impress", "Touch"],
+      "description": ""
+    },
+    {
+      "name": "Brown Bear",
+      "firstQuestion": ["Glow", "Blade", "Wind", "Serve", "Dance"],
+      "secondQuestion": ["Make", "Bright", "Sweet", "Warm", "Bone", "Smooth"],
+      "thirdQuestion": ["Lead", "Prowl", "Think", "Stone", "Under"],
+      "fourthQuestion": ["Sometimes", "Why", "Free", "Alone", "Lost", "Silent"],
+      "fifthQuestion": ["Trust", "Grey", "Spirit", "Impress", "Touch"],
+      "description": ""
+    },
+    {
+      "name": "Brown Hare",
+      "firstQuestion": ["Glow", "Blade", "Wind", "Serve", "Dance"],
+      "secondQuestion": ["Make", "Bright", "Sweet", "Warm", "Bone", "Smooth"],
+      "thirdQuestion": ["Save", "Play", "Feel", "Wood", "Over"],
+      "fourthQuestion": [
+        "Forever",
+        "Who",
+        "Safe",
+        "Together",
+        "Found",
+        "Speak"
+      ],
+      "fifthQuestion": ["Trust", "Grey", "Spirit", "Impress", "Touch"],
+      "description": ""
+    },
+    {
+      "name": "Brown Owl",
+      "firstQuestion": ["Glitter", "Leaf", "Sun", "Protect", "Dream"],
+      "secondQuestion": ["Improve", "Shadow", "Salt", "Cold", "Blood", "Rough"],
+      "thirdQuestion": ["Escape", "Preen", "Sense", "Earth", "Around"],
+      "fourthQuestion": ["Sometimes", "Why", "Free", "Alone", "Lost", "Silent"],
+      "fifthQuestion": ["Trust", "Grey", "Spirit", "Impress", "Touch"],
+      "description": ""
+    },
+    {
+      "name": "Buffalo",
+      "firstQuestion": ["Glow", "Blade", "Wind", "Serve", "Dance"],
+      "secondQuestion": ["Make", "Bright", "Sweet", "Warm", "Bone", "Smooth"],
+      "thirdQuestion": ["Escape", "Preen", "Sense", "Earth", "Around"],
+      "fourthQuestion": ["Sometimes", "Why", "Free", "Alone", "Lost", "Silent"],
+      "fifthQuestion": ["Trust", "Grey", "Spirit", "Impress", "Touch"],
+      "description": ""
+    },
+    {
+      "name": "Buzzard",
+      "firstQuestion": ["Shine", "Thorne", "Rain", "Seek", "Discover"],
+      "secondQuestion": ["Improve", "Shadow", "Salt", "Cold", "Blood", "Rough"],
+      "thirdQuestion": ["Escape", "Preen", "Sense", "Earth", "Around"],
+      "fourthQuestion": ["Sometimes", "Why", "Free", "Alone", "Lost", "Silent"],
+      "fifthQuestion": ["Hope", "Black", "Mind", "Advise", "Listen"],
+      "description": ""
+    },
+    {
+      "name": "Calico Cat",
+      "firstQuestion": ["Glow", "Blade", "Wind", "Serve", "Dance"],
+      "secondQuestion": ["Make", "Bright", "Sweet", "Warm", "Bone", "Smooth"],
+      "thirdQuestion": ["Save", "Play", "Feel", "Wood", "Over"],
+      "fourthQuestion": ["Sometimes", "Why", "Free", "Alone", "Lost", "Silent"],
+      "fifthQuestion": ["Love", "White", "Heart", "Comfort", "Watch"],
+      "description": ""
+    },
+    {
+      "name": "Capuchin Monkey",
+      "firstQuestion": ["Glow", "Blade", "Wind", "Serve", "Dance"],
+      "secondQuestion": ["Make", "Bright", "Sweet", "Warm", "Bone", "Smooth"],
+      "thirdQuestion": ["Lead", "Prowl", "Think", "Stone", "Under"],
+      "fourthQuestion": [
+        "Forever",
+        "Who",
+        "Safe",
+        "Together",
+        "Found",
+        "Speak"
+      ],
+      "fifthQuestion": ["Trust", "Grey", "Spirit", "Impress", "Touch"],
+      "description": ""
+    },
+    {
+      "name": "Cheeah/ Python",
+      "firstQuestion": ["Shine", "Thorne", "Rain", "Seek", "Discover"],
+      "secondQuestion": ["Make", "Bright", "Sweet", "Warm", "Bone", "Smooth"],
+      "thirdQuestion": ["Escape", "Preen", "Sense", "Earth", "Around"],
+      "fourthQuestion": [
+        "Forever",
+        "Who",
+        "Safe",
+        "Together",
+        "Found",
+        "Speak"
+      ],
+      "fifthQuestion": ["Trust", "Grey", "Spirit", "Impress", "Touch"],
+      "description": ""
+    },
+    {
+      "name": "Chesnut Mare/ Stallion",
+      "firstQuestion": ["Shine", "Thorne", "Rain", "Seek", "Discover"],
+      "secondQuestion": ["Improve", "Shadow", "Salt", "Cold", "Blood", "Rough"],
+      "thirdQuestion": ["Escape", "Preen", "Sense", "Earth", "Around"],
+      "fourthQuestion": [
+        "Forever",
+        "Who",
+        "Safe",
+        "Together",
+        "Found",
+        "Speak"
+      ],
+      "fifthQuestion": ["Love", "White", "Heart", "Comfort", "Watch"],
+      "description": ""
+    },
+    {
+      "name": "Chow Dog",
+      "firstQuestion": ["Glitter", "Leaf", "Sun", "Protect", "Dream"],
+      "secondQuestion": ["Make", "Bright", "Sweet", "Warm", "Bone", "Smooth"],
+      "thirdQuestion": ["Lead", "Prowl", "Think", "Stone", "Under"],
+      "fourthQuestion": ["Sometimes", "Why", "Free", "Alone", "Lost", "Silent"],
+      "fifthQuestion": ["Love", "White", "Heart", "Comfort", "Watch"],
+      "description": ""
+    },
+    {
+      "name": "Crow",
+      "firstQuestion": ["Glow", "Blade", "Wind", "Serve", "Dance"],
+      "secondQuestion": ["Improve", "Shadow", "Salt", "Cold", "Blood", "Rough"],
+      "thirdQuestion": ["Lead", "Prowl", "Think", "Stone", "Under"],
+      "fourthQuestion": ["Sometimes", "Why", "Free", "Alone", "Lost", "Silent"],
+      "fifthQuestion": ["Love", "White", "Heart", "Comfort", "Watch"],
+      "description": ""
+    },
+    {
+      "name": "Dapple Grey Mare/ Stallion",
+      "firstQuestion": ["Glitter", "Leaf", "Sun", "Protect", "Dream"],
+      "secondQuestion": ["Make", "Bright", "Sweet", "Warm", "Bone", "Smooth"],
+      "thirdQuestion": ["Save", "Play", "Feel", "Wood", "Over"],
+      "fourthQuestion": [
+        "Forever",
+        "Who",
+        "Safe",
+        "Together",
+        "Found",
+        "Speak"
+      ],
+      "fifthQuestion": ["Hope", "Black", "Mind", "Advise", "Listen"],
+      "description": ""
+    },
+    {
+      "name": "Deerhound",
+      "firstQuestion": ["Glitter", "Leaf", "Sun", "Protect", "Dream"],
+      "secondQuestion": ["Make", "Bright", "Sweet", "Warm", "Bone", "Smooth"],
+      "thirdQuestion": ["Save", "Play", "Feel", "Wood", "Over"],
+      "fourthQuestion": ["Sometimes", "Why", "Free", "Alone", "Lost", "Silent"],
+      "fifthQuestion": ["Trust", "Grey", "Spirit", "Impress", "Touch"],
+      "description": ""
+    },
+    {
+      "name": "Doe/ Stag",
+      "firstQuestion": ["Glitter", "Leaf", "Sun", "Protect", "Dream"],
+      "secondQuestion": ["Make", "Bright", "Sweet", "Warm", "Bone", "Smooth"],
+      "thirdQuestion": ["Escape", "Preen", "Sense", "Earth", "Around"],
+      "fourthQuestion": ["Sometimes", "Why", "Free", "Alone", "Lost", "Silent"],
+      "fifthQuestion": ["Hope", "Black", "Mind", "Advise", "Listen"],
+      "description": ""
+    },
+    {
+      "name": "Dolphin",
+      "firstQuestion": ["Glitter", "Leaf", "Sun", "Protect", "Dream"],
+      "secondQuestion": ["Make", "Bright", "Sweet", "Warm", "Bone", "Smooth"],
+      "thirdQuestion": ["Save", "Play", "Feel", "Wood", "Over"],
+      "fourthQuestion": [
+        "Forever",
+        "Who",
+        "Safe",
+        "Together",
+        "Found",
+        "Speak"
+      ],
+      "fifthQuestion": ["Love", "White", "Heart", "Comfort", "Watch"],
+      "description": ""
+    },
+    {
+      "name": "Dragon",
+      "firstQuestion": ["Glow", "Blade", "Wind", "Serve", "Dance"],
+      "secondQuestion": ["Improve", "Shadow", "Salt", "Cold", "Blood", "Rough"],
+      "thirdQuestion": ["Escape", "Preen", "Sense", "Earth", "Around"],
+      "fourthQuestion": ["Sometimes", "Why", "Free", "Alone", "Lost", "Silent"],
+      "fifthQuestion": ["Trust", "Grey", "Spirit", "Impress", "Touch"],
+      "description": ""
+    },
+    {
+      "name": "Dragonfly",
+      "firstQuestion": ["Glow", "Blade", "Wind", "Serve", "Dance"],
+      "secondQuestion": ["Improve", "Shadow", "Salt", "Cold", "Blood", "Rough"],
+      "thirdQuestion": ["Save", "Play", "Feel", "Wood", "Over"],
+      "fourthQuestion": ["Sometimes", "Why", "Free", "Alone", "Lost", "Silent"],
+      "fifthQuestion": ["Trust", "Grey", "Spirit", "Impress", "Touch"],
+      "description": ""
+    },
+    {
+      "name": "Dunmare/ Stallion",
+      "firstQuestion": ["Glitter", "Leaf", "Sun", "Protect", "Dream"],
+      "secondQuestion": ["Improve", "Shadow", "Salt", "Cold", "Blood", "Rough"],
+      "thirdQuestion": ["Save", "Play", "Feel", "Wood", "Over"],
+      "fourthQuestion": ["Sometimes", "Why", "Free", "Alone", "Lost", "Silent"],
+      "fifthQuestion": ["Hope", "Black", "Mind", "Advise", "Listen"],
+      "description": ""
+    },
+    {
+      "name": "Eagle",
+      "firstQuestion": ["Shine", "Thorne", "Rain", "Seek", "Discover"],
+      "secondQuestion": ["Improve", "Shadow", "Salt", "Cold", "Blood", "Rough"],
+      "thirdQuestion": ["Lead", "Prowl", "Think", "Stone", "Under"],
+      "fourthQuestion": ["Sometimes", "Why", "Free", "Alone", "Lost", "Silent"],
+      "fifthQuestion": ["Trust", "Grey", "Spirit", "Impress", "Touch"],
+      "description": ""
+    },
+    {
+      "name": "Eagle Owl",
+      "firstQuestion": ["Glitter", "Leaf", "Sun", "Protect", "Dream"],
+      "secondQuestion": ["Improve", "Shadow", "Salt", "Cold", "Blood", "Rough"],
+      "thirdQuestion": ["Escape", "Preen", "Sense", "Earth", "Around"],
+      "fourthQuestion": [
+        "Forever",
+        "Who",
+        "Safe",
+        "Together",
+        "Found",
+        "Speak"
+      ],
+      "fifthQuestion": ["Trust", "Grey", "Spirit", "Impress", "Touch"],
+      "description": ""
+    },
+    {
+      "name": "Elephant/ Polar Bear",
+      "firstQuestion": ["Shine", "Thorne", "Rain", "Seek", "Discover"],
+      "secondQuestion": ["Make", "Bright", "Sweet", "Warm", "Bone", "Smooth"],
+      "thirdQuestion": ["Escape", "Preen", "Sense", "Earth", "Around"],
+      "fourthQuestion": ["Sometimes", "Why", "Free", "Alone", "Lost", "Silent"],
+      "fifthQuestion": ["Trust", "Grey", "Spirit", "Impress", "Touch"],
+      "description": ""
+    },
+    {
+      "name": "Erumpent",
+      "firstQuestion": ["Glow", "Blade", "Wind", "Serve", "Dance"],
+      "secondQuestion": ["Make", "Bright", "Sweet", "Warm", "Bone", "Smooth"],
+      "thirdQuestion": ["Escape", "Preen", "Sense", "Earth", "Around"],
+      "fourthQuestion": [
+        "Forever",
+        "Who",
+        "Safe",
+        "Together",
+        "Found",
+        "Speak"
+      ],
+      "fifthQuestion": ["Trust", "Grey", "Spirit", "Impress", "Touch"],
+      "description": ""
+    },
+    {
+      "name": "Falcon",
+      "firstQuestion": ["Shine", "Thorne", "Rain", "Seek", "Discover"],
+      "secondQuestion": ["Make", "Bright", "Sweet", "Warm", "Bone", "Smooth"],
+      "thirdQuestion": ["Lead", "Prowl", "Think", "Stone", "Under"],
+      "fourthQuestion": ["Sometimes", "Why", "Free", "Alone", "Lost", "Silent"],
+      "fifthQuestion": ["Love", "White", "Heart", "Comfort", "Watch"],
+      "description": ""
+    },
+    {
+      "name": "Field Mouse",
+      "firstQuestion": ["Glow", "Blade", "Wind", "Serve", "Dance"],
+      "secondQuestion": ["Make", "Bright", "Sweet", "Warm", "Bone", "Smooth"],
+      "thirdQuestion": ["Lead", "Prowl", "Think", "Stone", "Under"],
+      "fourthQuestion": ["Sometimes", "Why", "Free", "Alone", "Lost", "Silent"],
+      "fifthQuestion": ["Hope", "Black", "Mind", "Advise", "Listen"],
+      "description": ""
+    },
+    {
+      "name": "Fire-dwelling Salamander",
+      "firstQuestion": ["Glow", "Blade", "Wind", "Serve", "Dance"],
+      "secondQuestion": ["Improve", "Shadow", "Salt", "Cold", "Blood", "Rough"],
+      "thirdQuestion": ["Escape", "Preen", "Sense", "Earth", "Around"],
+      "fourthQuestion": ["Sometimes", "Why", "Free", "Alone", "Lost", "Silent"],
+      "fifthQuestion": ["Trust", "Grey", "Spirit", "Impress", "Touch"],
+      "description": ""
+    },
+    {
+      "name": "Fox",
+      "firstQuestion": ["Shine", "Thorne", "Rain", "Seek", "Discover"],
+      "secondQuestion": ["Make", "Bright", "Sweet", "Warm", "Bone", "Smooth"],
+      "thirdQuestion": ["Lead", "Prowl", "Think", "Stone", "Under"],
+      "fourthQuestion": [
+        "Forever",
+        "Who",
+        "Safe",
+        "Together",
+        "Found",
+        "Speak"
+      ],
+      "fifthQuestion": ["Love", "White", "Heart", "Comfort", "Watch"],
+      "description": ""
+    },
+    {
+      "name": "Fox Terrier",
+      "firstQuestion": ["Glow", "Blade", "Wind", "Serve", "Dance"],
+      "secondQuestion": ["Improve", "Shadow", "Salt", "Cold", "Blood", "Rough"],
+      "thirdQuestion": ["Save", "Play", "Feel", "Wood", "Over"],
+      "fourthQuestion": [
+        "Forever",
+        "Who",
+        "Safe",
+        "Together",
+        "Found",
+        "Speak"
+      ],
+      "fifthQuestion": ["Love", "White", "Heart", "Comfort", "Watch"],
+      "description": ""
+    },
+    {
+      "name": "Ginger Cat",
+      "firstQuestion": ["Glitter", "Leaf", "Sun", "Protect", "Dream"],
+      "secondQuestion": ["Improve", "Shadow", "Salt", "Cold", "Blood", "Rough"],
+      "thirdQuestion": ["Lead", "Prowl", "Think", "Stone", "Under"],
+      "fourthQuestion": ["Sometimes", "Why", "Free", "Alone", "Lost", "Silent"],
+      "fifthQuestion": ["Love", "White", "Heart", "Comfort", "Watch"],
+      "description": ""
+    },
+    {
+      "name": "Goshawk",
+      "firstQuestion": ["Shine", "Thorne", "Rain", "Seek", "Discover"],
+      "secondQuestion": ["Improve", "Shadow", "Salt", "Cold", "Blood", "Rough"],
+      "thirdQuestion": ["Lead", "Prowl", "Think", "Stone", "Under"],
+      "fourthQuestion": ["Sometimes", "Why", "Free", "Alone", "Lost", "Silent"],
+      "fifthQuestion": ["Love", "White", "Heart", "Comfort", "Watch"],
+      "description": ""
+    },
+    {
+      "name": "Granian Winged Horse",
+      "firstQuestion": ["Glow", "Blade", "Wind", "Serve", "Dance"],
+      "secondQuestion": ["Make", "Bright", "Sweet", "Warm", "Bone", "Smooth"],
+      "thirdQuestion": ["Escape", "Preen", "Sense", "Earth", "Around"],
+      "fourthQuestion": ["Sometimes", "Why", "Free", "Alone", "Lost", "Silent"],
+      "fifthQuestion": ["Trust", "Grey", "Spirit", "Impress", "Touch"],
+      "description": ""
+    },
+    {
+      "name": "Grass Snake",
+      "firstQuestion": ["Glow", "Blade", "Wind", "Serve", "Dance"],
+      "secondQuestion": ["Improve", "Shadow", "Salt", "Cold", "Blood", "Rough"],
+      "thirdQuestion": ["Save", "Play", "Feel", "Wood", "Over"],
+      "fourthQuestion": [
+        "Forever",
+        "Who",
+        "Safe",
+        "Together",
+        "Found",
+        "Speak"
+      ],
+      "fifthQuestion": ["Trust", "Grey", "Spirit", "Impress", "Touch"],
+      "description": ""
+    },
+    {
+      "name": "Great Grey Owl",
+      "firstQuestion": ["Shine", "Thorne", "Rain", "Seek", "Discover"],
+      "secondQuestion": ["Make", "Bright", "Sweet", "Warm", "Bone", "Smooth"],
+      "thirdQuestion": ["Escape", "Preen", "Sense", "Earth", "Around"],
+      "fourthQuestion": ["Sometimes", "Why", "Free", "Alone", "Lost", "Silent"],
+      "fifthQuestion": ["Hope", "Black", "Mind", "Advise", "Listen"],
+      "description": ""
+    },
+    {
+      "name": "Grey Squirrel",
+      "firstQuestion": ["Glow", "Blade", "Wind", "Serve", "Dance"],
+      "secondQuestion": ["Make", "Bright", "Sweet", "Warm", "Bone", "Smooth"],
+      "thirdQuestion": ["Save", "Play", "Feel", "Wood", "Over"],
+      "fourthQuestion": [
+        "Forever",
+        "Who",
+        "Safe",
+        "Together",
+        "Found",
+        "Speak"
+      ],
+      "fifthQuestion": ["Hope", "Black", "Mind", "Advise", "Listen"],
+      "description": ""
+    },
+    {
+      "name": "Greyhound",
+      "firstQuestion": ["Glow", "Blade", "Wind", "Serve", "Dance"],
+      "secondQuestion": ["Improve", "Shadow", "Salt", "Cold", "Blood", "Rough"],
+      "thirdQuestion": ["Save", "Play", "Feel", "Wood", "Over"],
+      "fourthQuestion": ["Sometimes", "Why", "Free", "Alone", "Lost", "Silent"],
+      "fifthQuestion": ["Love", "White", "Heart", "Comfort", "Watch"],
+      "description": ""
+    },
+    {
+      "name": "Hedgehog",
+      "firstQuestion": ["Glow", "Blade", "Wind", "Serve", "Dance"],
+      "secondQuestion": ["Make", "Bright", "Sweet", "Warm", "Bone", "Smooth"],
+      "thirdQuestion": ["Escape", "Preen", "Sense", "Earth", "Around"],
+      "fourthQuestion": ["Sometimes", "Why", "Free", "Alone", "Lost", "Silent"],
+      "fifthQuestion": ["Love", "White", "Heart", "Comfort", "Watch"],
+      "description": ""
+    },
+    {
+      "name": "Heron",
+      "firstQuestion": ["Glow", "Blade", "Wind", "Serve", "Dance"],
+      "secondQuestion": ["Improve", "Shadow", "Salt", "Cold", "Blood", "Rough"],
+      "thirdQuestion": ["Lead", "Prowl", "Think", "Stone", "Under"],
+      "fourthQuestion": ["Sometimes", "Why", "Free", "Alone", "Lost", "Silent"],
+      "fifthQuestion": ["Trust", "Grey", "Spirit", "Impress", "Touch"],
+      "description": ""
+    },
+    {
+      "name": "Hippogriff",
+      "firstQuestion": ["Shine", "Thorne", "Rain", "Seek", "Discover"],
+      "secondQuestion": ["Improve", "Shadow", "Salt", "Cold", "Blood", "Rough"],
+      "thirdQuestion": ["Lead", "Prowl", "Think", "Stone", "Under"],
+      "fourthQuestion": ["Sometimes", "Why", "Free", "Alone", "Lost", "Silent"],
+      "fifthQuestion": ["Hope", "Black", "Mind", "Advise", "Listen"],
+      "description": ""
+    },
+    {
+      "name": "Hummingbird",
+      "firstQuestion": ["Shine", "Thorne", "Rain", "Seek", "Discover"],
+      "secondQuestion": ["Improve", "Shadow", "Salt", "Cold", "Blood", "Rough"],
+      "thirdQuestion": ["Lead", "Prowl", "Think", "Stone", "Under"],
+      "fourthQuestion": [
+        "Forever",
+        "Who",
+        "Safe",
+        "Together",
+        "Found",
+        "Speak"
+      ],
+      "fifthQuestion": ["Love", "White", "Heart", "Comfort", "Watch"],
+      "description": ""
+    },
+    {
+      "name": "Husky",
+      "firstQuestion": ["Glitter", "Leaf", "Sun", "Protect", "Dream"],
+      "secondQuestion": ["Make", "Bright", "Sweet", "Warm", "Bone", "Smooth"],
+      "thirdQuestion": ["Lead", "Prowl", "Think", "Stone", "Under"],
+      "fourthQuestion": [
+        "Forever",
+        "Who",
+        "Safe",
+        "Together",
+        "Found",
+        "Speak"
+      ],
+      "fifthQuestion": ["Trust", "Grey", "Spirit", "Impress", "Touch"],
+      "description": ""
+    },
+    {
+      "name": "Hyena",
+      "firstQuestion": ["Shine", "Thorne", "Rain", "Seek", "Discover"],
+      "secondQuestion": ["Improve", "Shadow", "Salt", "Cold", "Blood", "Rough"],
+      "thirdQuestion": ["Lead", "Prowl", "Think", "Stone", "Under"],
+      "fourthQuestion": ["Sometimes", "Why", "Free", "Alone", "Lost", "Silent"],
+      "fifthQuestion": ["Hope", "Black", "Mind", "Advise", "Listen"],
+      "description": ""
+    },
+    {
+      "name": "Ibizan Hound",
+      "firstQuestion": ["Glitter", "Leaf", "Sun", "Protect", "Dream"],
+      "secondQuestion": ["Improve", "Shadow", "Salt", "Cold", "Blood", "Rough"],
+      "thirdQuestion": ["Escape", "Preen", "Sense", "Earth", "Around"],
+      "fourthQuestion": ["Sometimes", "Why", "Free", "Alone", "Lost", "Silent"],
+      "fifthQuestion": ["Love", "White", "Heart", "Comfort", "Watch"],
+      "description": ""
+    },
+    {
+      "name": "Impala/ Vulture",
+      "firstQuestion": ["Shine", "Thorne", "Rain", "Seek", "Discover"],
+      "secondQuestion": ["Improve", "Shadow", "Salt", "Cold", "Blood", "Rough"],
+      "thirdQuestion": ["Escape", "Preen", "Sense", "Earth", "Around"],
+      "fourthQuestion": [
+        "Forever",
+        "Who",
+        "Safe",
+        "Together",
+        "Found",
+        "Speak"
+      ],
+      "fifthQuestion": ["Trust", "Grey", "Spirit", "Impress", "Touch"],
+      "description": ""
+    },
+    {
+      "name": "Irish Wolfhound",
+      "firstQuestion": ["Glitter", "Leaf", "Sun", "Protect", "Dream"],
+      "secondQuestion": ["Improve", "Shadow", "Salt", "Cold", "Blood", "Rough"],
+      "thirdQuestion": ["Save", "Play", "Feel", "Wood", "Over"],
+      "fourthQuestion": ["Sometimes", "Why", "Free", "Alone", "Lost", "Silent"],
+      "fifthQuestion": ["Trust", "Grey", "Spirit", "Impress", "Touch"],
+      "description": ""
+    },
+    {
+      "name": "King Cobra",
+      "firstQuestion": ["Glow", "Blade", "Wind", "Serve", "Dance"],
+      "secondQuestion": ["Improve", "Shadow", "Salt", "Cold", "Blood", "Rough"],
+      "thirdQuestion": ["Escape", "Preen", "Sense", "Earth", "Around"],
+      "fourthQuestion": ["Sometimes", "Why", "Free", "Alone", "Lost", "Silent"],
+      "fifthQuestion": ["Trust", "Grey", "Spirit", "Impress", "Touch"],
+      "description": ""
+    },
+    {
+      "name": "Kingfisher",
+      "firstQuestion": ["Glow", "Blade", "Wind", "Serve", "Dance"],
+      "secondQuestion": ["Make", "Bright", "Sweet", "Warm", "Bone", "Smooth"],
+      "thirdQuestion": ["Lead", "Prowl", "Think", "Stone", "Under"],
+      "fourthQuestion": [
+        "Forever",
+        "Who",
+        "Safe",
+        "Together",
+        "Found",
+        "Speak"
+      ],
+      "fifthQuestion": ["Love", "White", "Heart", "Comfort", "Watch"],
+      "description": ""
+    },
+    {
+      "name": "Leopard/Leopardess/Shark",
+      "firstQuestion": ["Shine", "Thorne", "Rain", "Seek", "Discover"],
+      "secondQuestion": ["Improve", "Shadow", "Salt", "Cold", "Blood", "Rough"],
+      "thirdQuestion": ["Escape", "Preen", "Sense", "Earth", "Around"],
+      "fourthQuestion": ["Sometimes", "Why", "Free", "Alone", "Lost", "Silent"],
+      "fifthQuestion": ["Trust", "Grey", "Spirit", "Impress", "Touch"],
+      "description": ""
+    },
+    {
+      "name": "Lion/Lioness/Seal",
+      "firstQuestion": ["Shine", "Thorne", "Rain", "Seek", "Discover"],
+      "secondQuestion": ["Improve", "Shadow", "Salt", "Cold", "Blood", "Rough"],
+      "thirdQuestion": ["Escape", "Preen", "Sense", "Earth", "Around"],
+      "fourthQuestion": ["Sometimes", "Why", "Free", "Alone", "Lost", "Silent"],
+      "fifthQuestion": ["Trust", "Grey", "Spirit", "Impress", "Touch"],
+      "description": ""
+    },
+    {
+      "name": "Little Owl",
+      "firstQuestion": ["Glitter", "Leaf", "Sun", "Protect", "Dream"],
+      "secondQuestion": ["Improve", "Shadow", "Salt", "Cold", "Blood", "Rough"],
+      "thirdQuestion": ["Escape", "Preen", "Sense", "Earth", "Around"],
+      "fourthQuestion": ["Sometimes", "Why", "Free", "Alone", "Lost", "Silent"],
+      "fifthQuestion": ["Trust", "Grey", "Spirit", "Impress", "Touch"],
+      "description": ""
+    },
+    {
+      "name": "Lynx",
+      "firstQuestion": ["Glitter", "Leaf", "Sun", "Protect", "Dream"],
+      "secondQuestion": ["Make", "Bright", "Sweet", "Warm", "Bone", "Smooth"],
+      "thirdQuestion": ["Escape", "Preen", "Sense", "Earth", "Around"],
+      "fourthQuestion": ["Sometimes", "Why", "Free", "Alone", "Lost", "Silent"],
+      "fifthQuestion": ["Hope", "Black", "Mind", "Advise", "Listen"],
+      "description": ""
+    },
+    {
+      "name": "Magpie",
+      "firstQuestion": ["Glow", "Blade", "Wind", "Serve", "Dance"],
+      "secondQuestion": ["Improve", "Shadow", "Salt", "Cold", "Blood", "Rough"],
+      "thirdQuestion": ["Lead", "Prowl", "Think", "Stone", "Under"],
+      "fourthQuestion": ["Sometimes", "Why", "Free", "Alone", "Lost", "Silent"],
+      "fifthQuestion": ["Hope", "Black", "Mind", "Advise", "Listen"],
+      "description": ""
+    },
+    {
+      "name": "Manx Cat",
+      "firstQuestion": ["Glitter", "Leaf", "Sun", "Protect", "Dream"],
+      "secondQuestion": ["Improve", "Shadow", "Salt", "Cold", "Blood", "Rough"],
+      "thirdQuestion": ["Save", "Play", "Feel", "Wood", "Over"],
+      "fourthQuestion": [
+        "Forever",
+        "Who",
+        "Safe",
+        "Together",
+        "Found",
+        "Speak"
+      ],
+      "fifthQuestion": ["Love", "White", "Heart", "Comfort", "Watch"],
+      "description": ""
+    },
+    {
+      "name": "Marsh Harrier",
+      "firstQuestion": ["Shine", "Thorne", "Rain", "Seek", "Discover"],
+      "secondQuestion": ["Make", "Bright", "Sweet", "Warm", "Bone", "Smooth"],
+      "thirdQuestion": ["Save", "Play", "Feel", "Wood", "Over"],
+      "fourthQuestion": ["Sometimes", "Why", "Free", "Alone", "Lost", "Silent"],
+      "fifthQuestion": ["Hope", "Black", "Mind", "Advise", "Listen"],
+      "description": ""
+    },
+    {
+      "name": "Mastiff",
+      "firstQuestion": ["Glitter", "Leaf", "Sun", "Protect", "Dream"],
+      "secondQuestion": ["Improve", "Shadow", "Salt", "Cold", "Blood", "Rough"],
+      "thirdQuestion": ["Lead", "Prowl", "Think", "Stone", "Under"],
+      "fourthQuestion": ["Sometimes", "Why", "Free", "Alone", "Lost", "Silent"],
+      "fifthQuestion": ["Trust", "Grey", "Spirit", "Impress", "Touch"],
+      "description": ""
+    },
+    {
+      "name": "Mink",
+      "firstQuestion": ["Glow", "Blade", "Wind", "Serve", "Dance"],
+      "secondQuestion": ["Make", "Bright", "Sweet", "Warm", "Bone", "Smooth"],
+      "thirdQuestion": ["Escape", "Preen", "Sense", "Earth", "Around"],
+      "fourthQuestion": [
+        "Forever",
+        "Who",
+        "Safe",
+        "Together",
+        "Found",
+        "Speak"
+      ],
+      "fifthQuestion": ["Love", "White", "Heart", "Comfort", "Watch"],
+      "description": ""
+    },
+    {
+      "name": "Mole",
+      "firstQuestion": ["Glitter", "Leaf", "Sun", "Protect", "Dream"],
+      "secondQuestion": ["Improve", "Shadow", "Salt", "Cold", "Blood", "Rough"],
+      "thirdQuestion": ["Lead", "Prowl", "Think", "Stone", "Under"],
+      "fourthQuestion": ["Sometimes", "Why", "Free", "Alone", "Lost", "Silent"],
+      "fifthQuestion": ["Hope", "Black", "Mind", "Advise", "Listen"],
+      "description": ""
+    },
+    {
+      "name": "Mongrel Dog",
+      "firstQuestion": ["Shine", "Thorne", "Rain", "Seek", "Discover"],
+      "secondQuestion": ["Make", "Bright", "Sweet", "Warm", "Bone", "Smooth"],
+      "thirdQuestion": ["Escape", "Preen", "Sense", "Earth", "Around"],
+      "fourthQuestion": ["Sometimes", "Why", "Free", "Alone", "Lost", "Silent"],
+      "fifthQuestion": ["Love", "White", "Heart", "Comfort", "Watch"],
+      "description": ""
+    },
+    {
+      "name": "Mountain Hare",
+      "firstQuestion": ["Glow", "Blade", "Wind", "Serve", "Dance"],
+      "secondQuestion": ["Improve", "Shadow", "Salt", "Cold", "Blood", "Rough"],
+      "thirdQuestion": ["Escape", "Preen", "Sense", "Earth", "Around"],
+      "fourthQuestion": [
+        "Forever",
+        "Who",
+        "Safe",
+        "Together",
+        "Found",
+        "Speak"
+      ],
+      "fifthQuestion": ["Love", "White", "Heart", "Comfort", "Watch"],
+      "description": ""
+    },
+    {
+      "name": "Nebelung Cat",
+      "firstQuestion": ["Glitter", "Leaf", "Sun", "Protect", "Dream"],
+      "secondQuestion": ["Make", "Bright", "Sweet", "Warm", "Bone", "Smooth"],
+      "thirdQuestion": ["Save", "Play", "Feel", "Wood", "Over"],
+      "fourthQuestion": [
+        "Forever",
+        "Who",
+        "Safe",
+        "Together",
+        "Found",
+        "Speak"
+      ],
+      "fifthQuestion": ["Trust", "Grey", "Spirit", "Impress", "Touch"],
+      "description": ""
+    },
+    {
+      "name": "Newfoundland",
+      "firstQuestion": ["Glitter", "Leaf", "Sun", "Protect", "Dream"],
+      "secondQuestion": ["Make", "Bright", "Sweet", "Warm", "Bone", "Smooth"],
+      "thirdQuestion": ["Lead", "Prowl", "Think", "Stone", "Under"],
+      "fourthQuestion": ["Sometimes", "Why", "Free", "Alone", "Lost", "Silent"],
+      "fifthQuestion": ["Trust", "Grey", "Spirit", "Impress", "Touch"],
+      "description": ""
+    },
+    {
+      "name": "Nightjar",
+      "firstQuestion": ["Shine", "Thorne", "Rain", "Seek", "Discover"],
+      "secondQuestion": ["Make", "Bright", "Sweet", "Warm", "Bone", "Smooth"],
+      "thirdQuestion": ["Lead", "Prowl", "Think", "Stone", "Under"],
+      "fourthQuestion": [
+        "Forever",
+        "Who",
+        "Safe",
+        "Together",
+        "Found",
+        "Speak"
+      ],
+      "fifthQuestion": ["Trust", "Grey", "Spirit", "Impress", "Touch"],
+      "description": ""
+    },
+    {
+      "name": "Occamy",
+      "firstQuestion": ["Glow", "Blade", "Wind", "Serve", "Dance"],
+      "secondQuestion": ["Improve", "Shadow", "Salt", "Cold", "Blood", "Rough"],
+      "thirdQuestion": ["Escape", "Preen", "Sense", "Earth", "Around"],
+      "fourthQuestion": [
+        "Forever",
+        "Who",
+        "Safe",
+        "Together",
+        "Found",
+        "Speak"
+      ],
+      "fifthQuestion": ["Trust", "Grey", "Spirit", "Impress", "Touch"],
+      "description": ""
+    },
+    {
+      "name": "Ocicat",
+      "firstQuestion": ["Glitter", "Leaf", "Sun", "Protect", "Dream"],
+      "secondQuestion": ["Improve", "Shadow", "Salt", "Cold", "Blood", "Rough"],
+      "thirdQuestion": ["Lead", "Prowl", "Think", "Stone", "Under"],
+      "fourthQuestion": [
+        "Forever",
+        "Who",
+        "Safe",
+        "Together",
+        "Found",
+        "Speak"
+      ],
+      "fifthQuestion": ["Trust", "Grey", "Spirit", "Impress", "Touch"],
+      "description": ""
+    },
+    {
+      "name": "Orangutan",
+      "firstQuestion": ["Glow", "Blade", "Wind", "Serve", "Dance"],
+      "secondQuestion": ["Improve", "Shadow", "Salt", "Cold", "Blood", "Rough"],
+      "thirdQuestion": ["Escape", "Preen", "Sense", "Earth", "Around"],
+      "fourthQuestion": [
+        "Forever",
+        "Who",
+        "Safe",
+        "Together",
+        "Found",
+        "Speak"
+      ],
+      "fifthQuestion": ["Hope", "Black", "Mind", "Advise", "Listen"],
+      "description": ""
+    },
+    {
+      "name": "Orca",
+      "firstQuestion": ["Glow", "Blade", "Wind", "Serve", "Dance"],
+      "secondQuestion": ["Make", "Bright", "Sweet", "Warm", "Bone", "Smooth"],
+      "thirdQuestion": ["Escape", "Preen", "Sense", "Earth", "Around"],
+      "fourthQuestion": [
+        "Forever",
+        "Who",
+        "Safe",
+        "Together",
+        "Found",
+        "Speak"
+      ],
+      "fifthQuestion": ["Trust", "Grey", "Spirit", "Impress", "Touch"],
+      "description": ""
+    },
+    {
+      "name": "Oryx",
+      "firstQuestion": ["Shine", "Thorne", "Rain", "Seek", "Discover"],
+      "secondQuestion": ["Improve", "Shadow", "Salt", "Cold", "Blood", "Rough"],
+      "thirdQuestion": ["Escape", "Preen", "Sense", "Earth", "Around"],
+      "fourthQuestion": [
+        "Forever",
+        "Who",
+        "Safe",
+        "Together",
+        "Found",
+        "Speak"
+      ],
+      "fifthQuestion": ["Trust", "Grey", "Spirit", "Impress", "Touch"],
+      "description": ""
+    },
+    {
+      "name": "Osprey",
+      "firstQuestion": ["Shine", "Thorne", "Rain", "Seek", "Discover"],
+      "secondQuestion": ["Make", "Bright", "Sweet", "Warm", "Bone", "Smooth"],
+      "thirdQuestion": ["Save", "Play", "Feel", "Wood", "Over"],
+      "fourthQuestion": [
+        "Forever",
+        "Who",
+        "Safe",
+        "Together",
+        "Found",
+        "Speak"
+      ],
+      "fifthQuestion": ["Hope", "Black", "Mind", "Advise", "Listen"],
+      "description": ""
+    },
+    {
+      "name": "Otter",
+      "firstQuestion": ["Glitter", "Leaf", "Sun", "Protect", "Dream"],
+      "secondQuestion": ["Make", "Bright", "Sweet", "Warm", "Bone", "Smooth"],
+      "thirdQuestion": ["Escape", "Preen", "Sense", "Earth", "Around"],
+      "fourthQuestion": [
+        "Forever",
+        "Who",
+        "Safe",
+        "Together",
+        "Found",
+        "Speak"
+      ],
+      "fifthQuestion": ["Trust", "Grey", "Spirit", "Impress", "Touch"],
+      "description": ""
+    },
+    {
+      "name": "Peacock",
+      "firstQuestion": ["Glow", "Blade", "Wind", "Serve", "Dance"],
+      "secondQuestion": ["Improve", "Shadow", "Salt", "Cold", "Blood", "Rough"],
+      "thirdQuestion": ["Escape", "Preen", "Sense", "Earth", "Around"],
+      "fourthQuestion": [
+        "Forever",
+        "Who",
+        "Safe",
+        "Together",
+        "Found",
+        "Speak"
+      ],
+      "fifthQuestion": ["Trust", "Grey", "Spirit", "Impress", "Touch"],
+      "description": ""
+    },
+    {
+      "name": "Pheasant",
+      "firstQuestion": ["Shine", "Thorne", "Rain", "Seek", "Discover"],
+      "secondQuestion": ["Improve", "Shadow", "Salt", "Cold", "Blood", "Rough"],
+      "thirdQuestion": ["Lead", "Prowl", "Think", "Stone", "Under"],
+      "fourthQuestion": [
+        "Forever",
+        "Who",
+        "Safe",
+        "Together",
+        "Found",
+        "Speak"
+      ],
+      "fifthQuestion": ["Trust", "Grey", "Spirit", "Impress", "Touch"],
+      "description": ""
+    },
+    {
+      "name": "Piebad Mare/ Stallion",
+      "firstQuestion": ["Glitter", "Leaf", "Sun", "Protect", "Dream"],
+      "secondQuestion": ["Improve", "Shadow", "Salt", "Cold", "Blood", "Rough"],
+      "thirdQuestion": ["Lead", "Prowl", "Think", "Stone", "Under"],
+      "fourthQuestion": [
+        "Forever",
+        "Who",
+        "Safe",
+        "Together",
+        "Found",
+        "Speak"
+      ],
+      "fifthQuestion": ["Love", "White", "Heart", "Comfort", "Watch"],
+      "description": ""
+    },
+    {
+      "name": "Pine Marten",
+      "firstQuestion": ["Shine", "Thorne", "Rain", "Seek", "Discover"],
+      "secondQuestion": ["Make", "Bright", "Sweet", "Warm", "Bone", "Smooth"],
+      "thirdQuestion": ["Save", "Play", "Feel", "Wood", "Over"],
+      "fourthQuestion": ["Sometimes", "Why", "Free", "Alone", "Lost", "Silent"],
+      "fifthQuestion": ["Trust", "Grey", "Spirit", "Impress", "Touch"],
+      "description": ""
+    },
+    {
+      "name": "Polecat",
+      "firstQuestion": ["Glow", "Blade", "Wind", "Serve", "Dance"],
+      "secondQuestion": ["Improve", "Shadow", "Salt", "Cold", "Blood", "Rough"],
+      "thirdQuestion": ["Save", "Play", "Feel", "Wood", "Over"],
+      "fourthQuestion": [
+        "Forever",
+        "Who",
+        "Safe",
+        "Together",
+        "Found",
+        "Speak"
+      ],
+      "fifthQuestion": ["Hope", "Black", "Mind", "Advise", "Listen"],
+      "description": ""
+    },
+    {
+      "name": "Ragdoll Cat",
+      "firstQuestion": ["Shine", "Thorne", "Rain", "Seek", "Discover"],
+      "secondQuestion": ["Improve", "Shadow", "Salt", "Cold", "Blood", "Rough"],
+      "thirdQuestion": ["Save", "Play", "Feel", "Wood", "Over"],
+      "fourthQuestion": [
+        "Forever",
+        "Who",
+        "Safe",
+        "Together",
+        "Found",
+        "Speak"
+      ],
+      "fifthQuestion": ["Love", "White", "Heart", "Comfort", "Watch"],
+      "description": ""
+    },
+    {
+      "name": "Rat",
+      "firstQuestion": ["Shine", "Thorne", "Rain", "Seek", "Discover"],
+      "secondQuestion": ["Improve", "Shadow", "Salt", "Cold", "Blood", "Rough"],
+      "thirdQuestion": ["Lead", "Prowl", "Think", "Stone", "Under"],
+      "fourthQuestion": [
+        "Forever",
+        "Who",
+        "Safe",
+        "Together",
+        "Found",
+        "Speak"
+      ],
+      "fifthQuestion": ["Hope", "Black", "Mind", "Advise", "Listen"],
+      "description": ""
+    },
+    {
+      "name": "Rattlesnake",
+      "firstQuestion": ["Glow", "Blade", "Wind", "Serve", "Dance"],
+      "secondQuestion": ["Make", "Bright", "Sweet", "Warm", "Bone", "Smooth"],
+      "thirdQuestion": ["Escape", "Preen", "Sense", "Earth", "Around"],
+      "fourthQuestion": ["Sometimes", "Why", "Free", "Alone", "Lost", "Silent"],
+      "fifthQuestion": ["Hope", "Black", "Mind", "Advise", "Listen"],
+      "description": ""
+    },
+    {
+      "name": "Raven",
+      "firstQuestion": ["Glow", "Blade", "Wind", "Serve", "Dance"],
+      "secondQuestion": ["Improve", "Shadow", "Salt", "Cold", "Blood", "Rough"],
+      "thirdQuestion": ["Escape", "Preen", "Sense", "Earth", "Around"],
+      "fourthQuestion": [
+        "Forever",
+        "Who",
+        "Safe",
+        "Together",
+        "Found",
+        "Speak"
+      ],
+      "fifthQuestion": ["Hope", "Black", "Mind", "Advise", "Listen"],
+      "description": ""
+    },
+    {
+      "name": "Red Squirrel",
+      "firstQuestion": ["Glitter", "Leaf", "Sun", "Protect", "Dream"],
+      "secondQuestion": ["Make", "Bright", "Sweet", "Warm", "Bone", "Smooth"],
+      "thirdQuestion": ["Lead", "Prowl", "Think", "Stone", "Under"],
+      "fourthQuestion": [
+        "Forever",
+        "Who",
+        "Safe",
+        "Together",
+        "Found",
+        "Speak"
+      ],
+      "fifthQuestion": ["Hope", "Black", "Mind", "Advise", "Listen"],
+      "description": ""
+    },
+    {
+      "name": "Robin",
+      "firstQuestion": ["Glitter", "Leaf", "Sun", "Protect", "Dream"],
+      "secondQuestion": ["Improve", "Shadow", "Salt", "Cold", "Blood", "Rough"],
+      "thirdQuestion": ["Escape", "Preen", "Sense", "Earth", "Around"],
+      "fourthQuestion": ["Sometimes", "Why", "Free", "Alone", "Lost", "Silent"],
+      "fifthQuestion": ["Hope", "Black", "Mind", "Advise", "Listen"],
+      "description": ""
+    },
+    {
+      "name": "Rotweiler",
+      "firstQuestion": ["Shine", "Thorne", "Rain", "Seek", "Discover"],
+      "secondQuestion": ["Make", "Bright", "Sweet", "Warm", "Bone", "Smooth"],
+      "thirdQuestion": ["Lead", "Prowl", "Think", "Stone", "Under"],
+      "fourthQuestion": [
+        "Forever",
+        "Who",
+        "Safe",
+        "Together",
+        "Found",
+        "Speak"
+      ],
+      "fifthQuestion": ["Hope", "Black", "Mind", "Advise", "Listen"],
+      "description": ""
+    },
+    {
+      "name": "Runespoor",
+      "firstQuestion": ["Glow", "Blade", "Wind", "Serve", "Dance"],
+      "secondQuestion": ["Improve", "Shadow", "Salt", "Cold", "Blood", "Rough"],
+      "thirdQuestion": ["Escape", "Preen", "Sense", "Earth", "Around"],
+      "fourthQuestion": [
+        "Forever",
+        "Who",
+        "Safe",
+        "Together",
+        "Found",
+        "Speak"
+      ],
+      "fifthQuestion": ["Trust", "Grey", "Spirit", "Impress", "Touch"],
+      "description": ""
+    },
+    {
+      "name": "Russian Blue Cat",
+      "firstQuestion": ["Shine", "Thorne", "Rain", "Seek", "Discover"],
+      "secondQuestion": ["Improve", "Shadow", "Salt", "Cold", "Blood", "Rough"],
+      "thirdQuestion": ["Escape", "Preen", "Sense", "Earth", "Around"],
+      "fourthQuestion": ["Sometimes", "Why", "Free", "Alone", "Lost", "Silent"],
+      "fifthQuestion": ["Love", "White", "Heart", "Comfort", "Watch"],
+      "description": ""
+    },
+    {
+      "name": "Salmon",
+      "firstQuestion": ["Glow", "Blade", "Wind", "Serve", "Dance"],
+      "secondQuestion": ["Make", "Bright", "Sweet", "Warm", "Bone", "Smooth"],
+      "thirdQuestion": ["Save", "Play", "Feel", "Wood", "Over"],
+      "fourthQuestion": ["Sometimes", "Why", "Free", "Alone", "Lost", "Silent"],
+      "fifthQuestion": ["Trust", "Grey", "Spirit", "Impress", "Touch"],
+      "description": ""
+    },
+    {
+      "name": "Scops Owl",
+      "firstQuestion": ["Glitter", "Leaf", "Sun", "Protect", "Dream"],
+      "secondQuestion": ["Improve", "Shadow", "Salt", "Cold", "Blood", "Rough"],
+      "thirdQuestion": ["Escape", "Preen", "Sense", "Earth", "Around"],
+      "fourthQuestion": [
+        "Forever",
+        "Who",
+        "Safe",
+        "Together",
+        "Found",
+        "Speak"
+      ],
+      "fifthQuestion": ["Trust", "Grey", "Spirit", "Impress", "Touch"],
+      "description": ""
+    },
+    {
+      "name": "Shrew",
+      "firstQuestion": ["Glow", "Blade", "Wind", "Serve", "Dance"],
+      "secondQuestion": ["Make", "Bright", "Sweet", "Warm", "Bone", "Smooth"],
+      "thirdQuestion": ["Lead", "Prowl", "Think", "Stone", "Under"],
+      "fourthQuestion": [
+        "Forever",
+        "Who",
+        "Safe",
+        "Together",
+        "Found",
+        "Speak"
+      ],
+      "fifthQuestion": ["Hope", "Black", "Mind", "Advise", "Listen"],
+      "description": ""
+    },
+    {
+      "name": "Sibrian Cat",
+      "firstQuestion": ["Glitter", "Leaf", "Sun", "Protect", "Dream"],
+      "secondQuestion": ["Make", "Bright", "Sweet", "Warm", "Bone", "Smooth"],
+      "thirdQuestion": ["Escape", "Preen", "Sense", "Earth", "Around"],
+      "fourthQuestion": ["Sometimes", "Why", "Free", "Alone", "Lost", "Silent"],
+      "fifthQuestion": ["Love", "White", "Heart", "Comfort", "Watch"],
+      "description": ""
+    },
+    {
+      "name": "Snowy Owl",
+      "firstQuestion": ["Shine", "Thorne", "Rain", "Seek", "Discover"],
+      "secondQuestion": ["Improve", "Shadow", "Salt", "Cold", "Blood", "Rough"],
+      "thirdQuestion": ["Escape", "Preen", "Sense", "Earth", "Around"],
+      "fourthQuestion": [
+        "Forever",
+        "Who",
+        "Safe",
+        "Together",
+        "Found",
+        "Speak"
+      ],
+      "fifthQuestion": ["Hope", "Black", "Mind", "Advise", "Listen"],
+      "description": ""
+    },
+    {
+      "name": "Sparrow",
+      "firstQuestion": ["Glow", "Blade", "Wind", "Serve", "Dance"],
+      "secondQuestion": ["Improve", "Shadow", "Salt", "Cold", "Blood", "Rough"],
+      "thirdQuestion": ["Lead", "Prowl", "Think", "Stone", "Under"],
+      "fourthQuestion": [
+        "Forever",
+        "Who",
+        "Safe",
+        "Together",
+        "Found",
+        "Speak"
+      ],
+      "fifthQuestion": ["Love", "White", "Heart", "Comfort", "Watch"],
+      "description": ""
+    },
+    {
+      "name": "Sparrowhawk",
+      "firstQuestion": ["Shine", "Thorne", "Rain", "Seek", "Discover"],
+      "secondQuestion": ["Improve", "Shadow", "Salt", "Cold", "Blood", "Rough"],
+      "thirdQuestion": ["Save", "Play", "Feel", "Wood", "Over"],
+      "fourthQuestion": [
+        "Forever",
+        "Who",
+        "Safe",
+        "Together",
+        "Found",
+        "Speak"
+      ],
+      "fifthQuestion": ["Hope", "Black", "Mind", "Advise", "Listen"],
+      "description": ""
+    },
+    {
+      "name": "Sphynx Cat",
+      "firstQuestion": ["Glow", "Blade", "Wind", "Serve", "Dance"],
+      "secondQuestion": ["Improve", "Shadow", "Salt", "Cold", "Blood", "Rough"],
+      "thirdQuestion": ["Lead", "Prowl", "Think", "Stone", "Under"],
+      "fourthQuestion": [
+        "Forever",
+        "Who",
+        "Safe",
+        "Together",
+        "Found",
+        "Speak"
+      ],
+      "fifthQuestion": ["Trust", "Grey", "Spirit", "Impress", "Touch"],
+      "description": ""
+    },
+    {
+      "name": "St. Bernard",
+      "firstQuestion": ["Shine", "Thorne", "Rain", "Seek", "Discover"],
+      "secondQuestion": ["Make", "Bright", "Sweet", "Warm", "Bone", "Smooth"],
+      "thirdQuestion": ["Save", "Play", "Feel", "Wood", "Over"],
+      "fourthQuestion": [
+        "Forever",
+        "Who",
+        "Safe",
+        "Together",
+        "Found",
+        "Speak"
+      ],
+      "fifthQuestion": ["Love", "White", "Heart", "Comfort", "Watch"],
+      "description": ""
+    },
+    {
+      "name": "Stoat",
+      "firstQuestion": ["Shine", "Thorne", "Rain", "Seek", "Discover"],
+      "secondQuestion": ["Make", "Bright", "Sweet", "Warm", "Bone", "Smooth"],
+      "thirdQuestion": ["Save", "Play", "Feel", "Wood", "Over"],
+      "fourthQuestion": [
+        "Forever",
+        "Who",
+        "Safe",
+        "Together",
+        "Found",
+        "Speak"
+      ],
+      "fifthQuestion": ["Trust", "Grey", "Spirit", "Impress", "Touch"],
+      "description": ""
+    },
+    {
+      "name": "Swallow",
+      "firstQuestion": ["Glow", "Blade", "Wind", "Serve", "Dance"],
+      "secondQuestion": ["Make", "Bright", "Sweet", "Warm", "Bone", "Smooth"],
+      "thirdQuestion": ["Lead", "Prowl", "Think", "Stone", "Under"],
+      "fourthQuestion": ["Sometimes", "Why", "Free", "Alone", "Lost", "Silent"],
+      "fifthQuestion": ["Love", "White", "Heart", "Comfort", "Watch"],
+      "description": ""
+    },
+    {
+      "name": "Swift",
+      "firstQuestion": ["Glitter", "Leaf", "Sun", "Protect", "Dream"],
+      "secondQuestion": ["Improve", "Shadow", "Salt", "Cold", "Blood", "Rough"],
+      "thirdQuestion": ["Escape", "Preen", "Sense", "Earth", "Around"],
+      "fourthQuestion": [
+        "Forever",
+        "Who",
+        "Safe",
+        "Together",
+        "Found",
+        "Speak"
+      ],
+      "fifthQuestion": ["Hope", "Black", "Mind", "Advise", "Listen"],
+      "description": ""
+    },
+    {
+      "name": "Thestral",
+      "firstQuestion": ["Shine", "Thorne", "Rain", "Seek", "Discover"],
+      "secondQuestion": ["Improve", "Shadow", "Salt", "Cold", "Blood", "Rough"],
+      "thirdQuestion": ["Lead", "Prowl", "Think", "Stone", "Under"],
+      "fourthQuestion": ["Sometimes", "Why", "Free", "Alone", "Lost", "Silent"],
+      "fifthQuestion": ["Hope", "Black", "Mind", "Advise", "Listen"],
+      "description": ""
+    },
+    {
+      "name": "Tiger/Tigress",
+      "firstQuestion": ["Shine", "Thorne", "Rain", "Seek", "Discover"],
+      "secondQuestion": ["Make", "Bright", "Sweet", "Warm", "Bone", "Smooth"],
+      "thirdQuestion": ["Escape", "Preen", "Sense", "Earth", "Around"],
+      "fourthQuestion": [
+        "Forever",
+        "Who",
+        "Safe",
+        "Together",
+        "Found",
+        "Speak"
+      ],
+      "fifthQuestion": ["Trust", "Grey", "Spirit", "Impress", "Touch"],
+      "description": ""
+    },
+    {
+      "name": "Tonkinese Cat",
+      "firstQuestion": ["Glitter", "Leaf", "Sun", "Protect", "Dream"],
+      "secondQuestion": ["Make", "Bright", "Sweet", "Warm", "Bone", "Smooth"],
+      "thirdQuestion": ["Escape", "Preen", "Sense", "Earth", "Around"],
+      "fourthQuestion": [
+        "Forever",
+        "Who",
+        "Safe",
+        "Together",
+        "Found",
+        "Speak"
+      ],
+      "fifthQuestion": ["Love", "White", "Heart", "Comfort", "Watch"],
+      "description": ""
+    },
+    {
+      "name": "Tortiseshell Cat",
+      "firstQuestion": ["Glitter", "Leaf", "Sun", "Protect", "Dream"],
+      "secondQuestion": ["Improve", "Shadow", "Salt", "Cold", "Blood", "Rough"],
+      "thirdQuestion": ["Save", "Play", "Feel", "Wood", "Over"],
+      "fourthQuestion": [
+        "Forever",
+        "Who",
+        "Safe",
+        "Together",
+        "Found",
+        "Speak"
+      ],
+      "fifthQuestion": ["Hope", "Black", "Mind", "Advise", "Listen"],
+      "description": ""
+    },
+    {
+      "name": "Unicorn",
+      "firstQuestion": ["Glow", "Blade", "Wind", "Serve", "Dance"],
+      "secondQuestion": ["Make", "Bright", "Sweet", "Warm", "Bone", "Smooth"],
+      "thirdQuestion": ["Escape", "Preen", "Sense", "Earth", "Around"],
+      "fourthQuestion": [
+        "Forever",
+        "Who",
+        "Safe",
+        "Together",
+        "Found",
+        "Speak"
+      ],
+      "fifthQuestion": ["Trust", "Grey", "Spirit", "Impress", "Touch"],
+      "description": ""
+    },
+    {
+      "name": "Vole",
+      "firstQuestion": ["Glow", "Blade", "Wind", "Serve", "Dance"],
+      "secondQuestion": ["Improve", "Shadow", "Salt", "Cold", "Blood", "Rough"],
+      "thirdQuestion": ["Lead", "Prowl", "Think", "Stone", "Under"],
+      "fourthQuestion": [
+        "Forever",
+        "Who",
+        "Safe",
+        "Together",
+        "Found",
+        "Speak"
+      ],
+      "fifthQuestion": ["Hope", "Black", "Mind", "Advise", "Listen"],
+      "description": ""
+    },
+    {
+      "name": "Weasel",
+      "firstQuestion": ["Glitter", "Leaf", "Sun", "Protect", "Dream"],
+      "secondQuestion": ["Make", "Bright", "Sweet", "Warm", "Bone", "Smooth"],
+      "thirdQuestion": ["Escape", "Preen", "Sense", "Earth", "Around"],
+      "fourthQuestion": ["Sometimes", "Why", "Free", "Alone", "Lost", "Silent"],
+      "fifthQuestion": ["Trust", "Grey", "Spirit", "Impress", "Touch"],
+      "description": ""
+    },
+    {
+      "name": "West Highland Terrier",
+      "firstQuestion": ["Glitter", "Leaf", "Sun", "Protect", "Dream"],
+      "secondQuestion": ["Improve", "Shadow", "Salt", "Cold", "Blood", "Rough"],
+      "thirdQuestion": ["Save", "Play", "Feel", "Wood", "Over"],
+      "fourthQuestion": ["Sometimes", "Why", "Free", "Alone", "Lost", "Silent"],
+      "fifthQuestion": ["Love", "White", "Heart", "Comfort", "Watch"],
+      "description": ""
+    },
+    {
+      "name": "White Mare/ Stallion",
+      "firstQuestion": ["Glitter", "Leaf", "Sun", "Protect", "Dream"],
+      "secondQuestion": ["Make", "Bright", "Sweet", "Warm", "Bone", "Smooth"],
+      "thirdQuestion": ["Save", "Play", "Feel", "Wood", "Over"],
+      "fourthQuestion": ["Sometimes", "Why", "Free", "Alone", "Lost", "Silent"],
+      "fifthQuestion": ["Love", "White", "Heart", "Comfort", "Watch"],
+      "description": ""
+    },
+    {
+      "name": "White Swan",
+      "firstQuestion": ["Shine", "Thorne", "Rain", "Seek", "Discover"],
+      "secondQuestion": ["Improve", "Shadow", "Salt", "Cold", "Blood", "Rough"],
+      "thirdQuestion": ["Save", "Play", "Feel", "Wood", "Over"],
+      "fourthQuestion": ["Sometimes", "Why", "Free", "Alone", "Lost", "Silent"],
+      "fifthQuestion": ["Hope", "Black", "Mind", "Advise", "Listen"],
+      "description": ""
+    },
+    {
+      "name": "Wild Boar",
+      "firstQuestion": ["Glitter", "Leaf", "Sun", "Protect", "Dream"],
+      "secondQuestion": ["Make", "Bright", "Sweet", "Warm", "Bone", "Smooth"],
+      "thirdQuestion": ["Lead", "Prowl", "Think", "Stone", "Under"],
+      "fourthQuestion": ["Sometimes", "Why", "Free", "Alone", "Lost", "Silent"],
+      "fifthQuestion": ["Hope", "Black", "Mind", "Advise", "Listen"],
+      "description": ""
+    },
+    {
+      "name": "Wild Rabbit",
+      "firstQuestion": ["Shine", "Thorne", "Rain", "Seek", "Discover"],
+      "secondQuestion": ["Improve", "Shadow", "Salt", "Cold", "Blood", "Rough"],
+      "thirdQuestion": ["Save", "Play", "Feel", "Wood", "Over"],
+      "fourthQuestion": ["Sometimes", "Why", "Free", "Alone", "Lost", "Silent"],
+      "fifthQuestion": ["Trust", "Grey", "Spirit", "Impress", "Touch"],
+      "description": ""
+    },
+    {
+      "name": "Wildcat",
+      "firstQuestion": ["Shine", "Thorne", "Rain", "Seek", "Discover"],
+      "secondQuestion": ["Make", "Bright", "Sweet", "Warm", "Bone", "Smooth"],
+      "thirdQuestion": ["Escape", "Preen", "Sense", "Earth", "Around"],
+      "fourthQuestion": [
+        "Forever",
+        "Who",
+        "Safe",
+        "Together",
+        "Found",
+        "Speak"
+      ],
+      "fifthQuestion": ["Love", "White", "Heart", "Comfort", "Watch"],
+      "description": ""
+    },
+    {
+      "name": "Wolf",
+      "firstQuestion": ["Shine", "Thorne", "Rain", "Seek", "Discover"],
+      "secondQuestion": ["Improve", "Shadow", "Salt", "Cold", "Blood", "Rough"],
+      "thirdQuestion": ["Lead", "Prowl", "Think", "Stone", "Under"],
+      "fourthQuestion": ["Sometimes", "Why", "Free", "Alone", "Lost", "Silent"],
+      "fifthQuestion": ["Hope", "Black", "Mind", "Advise", "Listen"],
+      "description": ""
+    },
+    {
+      "name": "Wood Moose",
+      "firstQuestion": ["Glow", "Blade", "Wind", "Serve", "Dance"],
+      "secondQuestion": ["Make", "Bright", "Sweet", "Warm", "Bone", "Smooth"],
+      "thirdQuestion": ["Escape", "Preen", "Sense", "Earth", "Around"],
+      "fourthQuestion": ["Sometimes", "Why", "Free", "Alone", "Lost", "Silent"],
+      "fifthQuestion": ["Love", "White", "Heart", "Comfort", "Watch"],
+      "description": ""
+    }
+  ]
+}

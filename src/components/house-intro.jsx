@@ -3,13 +3,35 @@ import { RxCross1 } from "react-icons/rx";
 import { GiOwl } from "react-icons/gi";
 import { BiSolidQuoteSingleLeft } from "react-icons/bi";
 import HouseInfo from "../house.json";
-import ShieldImg from "../imgs/secondary-shield-slytherin.webp";
+import SlytherinShield from "../imgs/secondary-shield-slytherin.webp";
+import HufflepuffShield from "../imgs/hufflepuffhouse.webp"
+import GryffindorShield from "../imgs/gryffindorhouse.webp"
+import RavenclawShield from "../imgs/ravenclawhouse.webp"
 import MemberCard from "./member-card";
 
 const HouseIntro = (props) => {
   let houseData = HouseInfo[props.userInfo.house];
   const [isTextExpanded, setIsTextExpanded] = useState(false);
-  console.log(props.isIntroOpen ? "true" : "false");
+
+  function determinHouseLogo() {
+    switch (props.userInfo.house) {
+      case "ravenclaw" : return RavenclawShield
+      case "slytherin" : return SlytherinShield
+      case "gryffindor" : return GryffindorShield
+      case "hufflepuff" : return HufflepuffShield
+    }
+  }
+
+
+  function determineSecondaryColor() {
+    switch (props.userInfo.house) {
+      case "ravenclaw" : return '#113150'
+      case "slytherin" : return '#15443c'
+      case "gryffindor" : return '#682828'
+      case "hufflepuff" : return 'rgb(193, 139, 73)'
+    }
+  }
+
   return (
     <div className={`overlay ${houseData.name.toLowerCase()}-overlay`}>
       <span onClick={() => props.setIsIntroOpen((prev) => !prev)}>
@@ -25,10 +47,12 @@ const HouseIntro = (props) => {
         </span>
         {houseData.text}
       </p>
-      <div className="secondary">
-        <img src={ShieldImg} alt="" />
+      <div className="secondary" style={{backgroundColor: determineSecondaryColor()}}>
+        <img src={determinHouseLogo()} alt="" />
         <h2>the sorting hat has spoken!</h2>
         <p>and you're not alone</p>
+        <p className="number">{houseData.numberJoined}</p>
+        <p>fellow {houseData.name}s have been sorted into this <span className="adjective" style={{color: houseData.color}}>{houseData.adjective}</span> Hogwarts house today.</p>
         <button className="share">
           <span>
             <GiOwl />
